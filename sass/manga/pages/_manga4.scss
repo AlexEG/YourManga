@@ -1,0 +1,97 @@
+.manga__body {
+
+  header .banner-img4 {
+    &::before {
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.292),
+          rgb(0, 0, 0)
+        ),
+        url(/assets/manga/page4/Sono\ Bisque\ Doll\ wa\ Koi\ wo\ Suru-10.webp);
+    }
+  }
+
+  main {
+    .manga4 {
+      //*==========  Cards [START here]  ==========*//
+      .card1 {
+        background-image: url(/assets/manga/page4/Yume\ Miru\ Prima\ Girl!.webp);
+        &::after {
+          content: "Yume Miru Prima Girl!";
+        }
+      }
+      .card2 {
+        background-image: url(/assets/manga/page4/Horimiya.webp);
+        &::after {
+          content: "Horimiya";
+        }
+      }
+      .card3 {
+        background-image: url(/assets/manga/page4/Kiss\ de\ Fusaide\,\ Bare\ naide..webp);
+        &::after {
+          content: "Kiss de Fusaide, Bare naide";
+        }
+      }
+      ////////////
+      .card4 {
+        background-image: url(/assets/manga/page4/Sono\ Bisque\ Doll\ wa\ Koi\ wo\ Suru\ -\ Vol.8\ Ch.63.5\ -\ Extras\ -\ 2.webp);
+        &::after {
+          content: "Sono Bisque Doll wa Koi wo Suru Vol.8";
+        }
+      }
+      .card5 {
+        background-image: url(/assets/manga/page4/Sono\ Bisque\ Doll\ wa\ Koi\ wo\ Suru-10.webp);
+        &::after {
+          content: "Sono Bisque Doll wa Koi wo Suru Vol.10";
+        }
+      }
+      .card6 {
+        background-image: url(/assets/manga/page4/Sakura-chan\ to\ Amane-kun.webp);
+        &::after {
+          content: "Sakura-chan to Amane-kun";
+        }
+      }
+      ////////////
+      .card7 {
+        background-image: url(/assets/manga/page4/Another\ World\ Where\ I\ Cant\ Even\ Collapse\ and\ Die\ Vol.1.webp);
+        &::after {
+          content: "Another World Where I Can't Even Collapse and Die - Vol.1 Ch.1 - 1";
+        }
+      }
+      .card8 {
+        background-image: url(/assets/manga/page4/Yankee-kun\ to\ Hakujou\ Gaaru.webp);
+
+        &::after {
+          content: "Yankee-kun to Hakujou Gaaru";
+        }
+      }
+      .card9 {
+        background-image: url(/assets/manga/page4/You\ into\ Me.webp);
+        &::after {
+          content: "You into Me";
+        }
+      }
+      ////////////
+      .card10 {
+        background-image: url(/assets/manga/page4/Classroom\ of\ the\ Elite.webp);
+        &::after {
+          content: "Classroom of the Elite";
+        }
+      }
+      .card11 {
+        background-image: url(/assets/manga/page4/Oku-sama\ wa\ Niizuma-chan.webp);
+        &::after {
+          content: "Oku-sama wa Niizuma-chan";
+        }
+      }
+      .card12 {
+        background-image: url(/assets/manga/page4/Danchigai\ -\ Chapter\ 126_\ Final\ Chapter\ -\ 1.webp);
+        &::after {
+          content: "Danchigai - Chapter 126";
+        }
+      }
+      //*==========  Cards [END here]  ==========*//
+      //todo manga4 [END]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+  width: 0.9em;
+  height: 0.9em;
+  background-color: hsl(0, 0%, 4%);
+}
+
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(
+    to top,
+    hsla(330, 100%, 20%, 0.255),
+    hsla(293, 100%, 20%, 0)
+  );
+  border-radius: 100vw 0 0 100vw;
+  margin-top: 2.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsla(0, 95%, 34%, 0.459);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(0, 95%, 34%, 0.659);
+}
+
+/* ***firefox*** */
+
+@supports (scrollbar-color: #ff0000 #490025) {
+  * {
+    scrollbar-color: hsla(0, 95%, 34%, 0.459) hsl(330, 100%, 14%);
+    scrollbar-width: thin;
+  }
+}

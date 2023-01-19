@@ -1,0 +1,92 @@
+.manga__body {
+
+  header .banner-img2 {
+    &::before {
+      background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.292),
+          rgb(0, 0, 0)
+        ),
+        url(/assets/manga/page2/Beautiful\ Girl\ and\ Dangerous\ Bodyguard.webp);
+    }
+  }
+  main {
+    .manga2 {
+      //*==========  Cards [START here]  ==========*//
+      .card1 {
+        background-image: url(/assets/manga/page2/Boarding\ School.webp);
+        &::after {
+          content: "Boarding School";
+        }
+      }
+      .card2 {
+        background-image: url(/assets/manga/page2/I\ Have\ a\ Second\ Chance\ at\ Life\,\ so\ I’ll\ Pamper\ My\ Yandere\ Boyfriend\ for\ a\ Happy\ Ending!!.webp);
+        &::after {
+          content: "I Have a Second Chance at Life, so I’ll Pamper My Yandere Boyfriend for a Happy Ending!!";
+        }
+      }
+      .card3 {
+        background-image: url(/assets/manga/page2/Kage\ no\ Jitsuryokusha\ ni\ Naritakute.webp);
+        &::after {
+          content: "Kage no Jitsuryokusha ni Naritakute";
+        }
+      }
+      .card4 {
+        background-image: url(/assets/manga/page2/Beautiful\ Girl\ and\ Dangerous\ Bodyguard.webp);
+        &::after {
+          content: "Beautiful Girl and Dangerous Bodyguard";
+        }
+      }
+      .card5 {
+        background-image: url(/assets/manga/page2/Watashitachi\ wa\ Koi\ wo\ Shiranai.webp);
+        &::after {
+          content: "Watashitachi wa Koi wo Shiranai";
+        }
+      }
+      .card6 {
+        background-image: url(/assets/manga/page2/Kaguya-sama\ wa\ Kokurasetai_.webp);
+        &::after {
+          content: "Kaguya-sama wa Kokurasetai";
+        }
+      }
+      .card7 {
+        background-image: url(/assets/manga/page2/Brothers\ and\ Sisters.webp);
+        &::after {
+          content: "Brothers and Sisters";
+        }
+      }
+      .card8 {
+        background-image: url(/assets/manga/page2/Uzaki-chan\ wa\ Asobitai!.webp);
+        &::after {
+          content: "Uzaki-chan wa Asobitai!";
+        }
+      }
+      .card9 {
+        background-image: url(/assets/manga/page2/Sometimes\ Even\ Reality\ Is\ a\ Lie!\ -\ Chapter\ 38.5_\ Extra\ chapter\ -\ 1.webp);
+        &::after {
+          content: "Sometimes Even Reality Is a Lie!";
+        }
+      }
+      .card10 {
+        background-image: url(/assets/manga/page2/Suki\ x\ Suki.webp);
+        &::after {
+          content: "Suki x Suki";
+        }
+      }
+      .card11 {
+        background-image: url(/assets/manga/page2/Koushin\ Koinu\ ni\ Koibumi\ wo\ -\ Vol.1\ Ch.1\ -\ 1st\ Letter\ -\ 1.webp);
+        &::after {
+          content: "Koushin Koinu ni Koibumi wo - Vol.1 Ch.1 - 1st Letter - 1";
+        }
+      }
+      .card12 {
+        background-image: url(/assets/manga/page2/Uzaki-chan\ wa\ Asobitai.webp);
+        &::after {
+          content: "Uzaki-chan wa Asobitai!";
+        }
+      }
+      //*==========  Cards [END here]  ==========*//
+      //todo manga2 [END]
+    }
+  }
+}
