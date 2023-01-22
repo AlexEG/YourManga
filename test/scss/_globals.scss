@@ -76,3 +76,21 @@ header {
     }
   }
 }
+.btn-contanier {
+  height: 300px;
+  display: grid;
+  place-items: center;
+
+  button {
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    background-color: rgba(0, 174, 255, 0.74);
+
+    &:hover {
+      text-shadow: 0 0 2px;
+      background-color: rgba(0, 174, 255, 0.425);
+      cursor: pointer;
+    }
+  }
+}

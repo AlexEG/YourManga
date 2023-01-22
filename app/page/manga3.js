@@ -10,11 +10,6 @@ btnpPage3.addEventListener("click", function () {
   header.classList.remove("header4");
   header.classList.add("header3");
 
-  btnactive1.classList.remove("active");
-  btnactive2.classList.remove("active");
-  btnactive4.classList.remove("active");
-  btnactive3.classList.add("active");
-
   // manga info
   mangaInfo.innerHTML = `<h1>The Beginning After the End</h1>
 <p>Artists: Fuyuki23</p>

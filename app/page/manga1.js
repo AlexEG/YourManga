@@ -10,10 +10,7 @@ btnpPage1.addEventListener("click", function () {
   header.classList.remove("header4");
   header.classList.add("header1");
 
-  btnactive2.classList.remove("active");
-  btnactive3.classList.remove("active");
-  btnactive4.classList.remove("active");
-  btnactive1.classList.add("active");
+
 
   // manga info
   mangaInfo.innerHTML = `<h1>Awkward Senpai</h1>

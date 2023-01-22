@@ -1,5 +1,4 @@
 .manga__body {
-
   //banner background(blur) + manga cover
   .header1 .banner-bg,
   .header1 .info .info__manga-img .info__manga-img__manga-cover {
@@ -16,7 +15,7 @@
         }
       }
       .card2 {
-        background-image: url(/assets/manga/page1/awkward-senpai.webp);
+        background-image: url(/assets/manga/page1/mieruko-chan.webp);
         &::after {
           content: "Awkward Senpai";
         }
@@ -46,7 +45,7 @@
         }
       }
       .card6 {
-        background-image: url(/assets/manga/page1/mieruko-chan.webp);
+        background-image: url(/assets/manga/page1/awkward-senpai.webp);
         &::after {
           content: "Name of manga and somedfghdfghfd other info";
         }
