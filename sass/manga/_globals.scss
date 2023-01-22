@@ -1,7 +1,6 @@
 .manga__body {
   background-color: var(--bg-body);
   min-height: 100vh;
-  padding-top: 40px;
   transition: 900ms background-color ease-in-out;
 
   main {
@@ -10,6 +9,7 @@
     padding-top: 35px;
 
     //*==========  manga__main__contanier [START here]  ==========*//
+    
     .manga__contaner {
       // outline: solid 2px rgb(0, 255, 234); ///////
       min-width: 370px;

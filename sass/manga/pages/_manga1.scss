@@ -1,16 +1,12 @@
 .manga__body {
 
-  header .banner-img1 {
-    &::before {
-      background-image: linear-gradient(
-          to top,
-          rgba(0, 0, 0, 0.292),
-          rgb(0, 0, 0)
-        ),
-        url(/assets/manga/page1/Awkward_Senpai.webp);
-    }
+  //banner background(blur) + manga cover
+  .header1 .banner-bg,
+  .header1 .info .info__manga-img .info__manga-img__manga-cover {
+    background-image: url(/assets/manga/page1/Awkward_Senpai.webp);
   }
 
+  // manga container
   main {
     .manga1 {
       .card1 {

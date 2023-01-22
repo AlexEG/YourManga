@@ -1,86 +1,70 @@
 .manga__body {
-  .manga__page__header {
-    .banner__manga__page {
-      // outline: 1px red solid; //////
+  header {
+    // z-index
+    // ?? header = 0
+    --banner-bg-blur: -1;
+
+    height: 400px;
+    position: relative;
+    font-family: "Public Sans", sans-serif;
+
+    .banner-bg {
+      position: absolute;
       width: 100%;
-      height: 400px;
-      background-color: hsl(0, 0%, 2%);
-      padding-top: 40px;
-      z-index: -555;
-      position: relative;
-      /////////////////////////
+      height: 100%;
 
-      &::before {
-        // outline: 1px blue solid; //////
 
-        content: "";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        filter: blur(10px);
-        z-index: -999;
-      }
-      /////////////////////////
-
-      /////////////////////////
-      .inside__conainer {
-        // outline: solid 2px red; ///////
-
-        margin-inline: auto;
-        width: 100%;
-        // max-width: 1200px;
-        height: 100%;
-        z-index: 5;
-        display: grid;
-        grid-template-columns: auto 1fr;
-        grid-template-rows: 1fr;
-
-        //////////////////////////////////
-
-        //////////////////////////////////
-        .manga__image {
-          // outline: solid 3px rgb(0, 255, 34); ///////
-          width: 100%;
-          height: 100%;
-          display: grid;
-          place-content: center;
-
-          img {
-            object-fit: cover;
-            margin: 0 50px;
-            width: 230px;
-            max-height: 330px;
-          }
-        }
-        //todo inside__conainer [END]
-      }
-
-      .manga__info {
-        h1 {
-          color: #ffffff;
-          font-size: 2rem;
-        }
-        p {
-          color: #ffffff;
-          font-size: 1rem;
-          margin: 2px;
-          word-wrap: normal;
-        }
-
-        //todo manga__info [END]
-      }
-      //todo banner__manga__page [END]
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: blur(5px);
+      z-index: var(--banner-bg-blur);
     }
 
-    //*==========  Banner Manga [START here]  ==========*//
+    .info {
+      background-color: hsla(0, 0%, 0%, 0.322);
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
 
+      // Row 1/Column 1
+      &__manga-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    
-    //*==========  Banner Manga [END here]  ==========*//
+        &__manga-cover {
+          width: 246px;
+          height: 350px;
+
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+
+      // Row 1/Column 2
+      &__manga-info {
+        padding: 50px 0 0 0;
+        h1 {
+          color: rgb(255, 255, 255);
+          text-shadow: 0 0 1px;
+          margin-bottom: 20px;
+        }
+
+        h2 {
+          color: hsla(0, 0%, 100%, 0.812);
+          text-shadow: 0 0 1px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          color: hsla(0, 0%, 100%, 0.522);
+          margin-bottom: 5px;
+        }
+      }
+    }
   }
 }

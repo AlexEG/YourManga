@@ -1,15 +1,12 @@
 .manga__body {
 
-  header .banner-img2 {
-    &::before {
-      background-image: linear-gradient(
-          to top,
-          rgba(0, 0, 0, 0.292),
-          rgb(0, 0, 0)
-        ),
-        url(/assets/manga/page2/Beautiful\ Girl\ and\ Dangerous\ Bodyguard.webp);
-    }
+  //banner background(blur) + manga cover
+  .header2 .banner-bg,
+  .header2 .info .info__manga-img .info__manga-img__manga-cover {
+    background-image: url(/assets/manga/page2/I\ Have\ a\ Second\ Chance\ at\ Life\,\ so\ I’ll\ Pamper\ My\ Yandere\ Boyfriend\ for\ a\ Happy\ Ending!!.webp);
   }
+
+  // manga container
   main {
     .manga2 {
       //*==========  Cards [START here]  ==========*//

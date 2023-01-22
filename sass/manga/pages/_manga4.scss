@@ -1,16 +1,12 @@
 .manga__body {
 
-  header .banner-img4 {
-    &::before {
-      background-image: linear-gradient(
-          to top,
-          rgba(0, 0, 0, 0.292),
-          rgb(0, 0, 0)
-        ),
-        url(/assets/manga/page4/Sono\ Bisque\ Doll\ wa\ Koi\ wo\ Suru-10.webp);
-    }
+  //banner background(blur) + manga cover
+  .header4 .banner-bg,
+  .header4 .info .info__manga-img .info__manga-img__manga-cover {
+    background-image: url(/assets/manga/page4/Another\ World\ Where\ I\ Cant\ Even\ Collapse\ and\ Die\ Vol.1.webp);
   }
-
+  
+  // manga container
   main {
     .manga4 {
       //*==========  Cards [START here]  ==========*//

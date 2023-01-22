@@ -1,16 +1,12 @@
 .manga__body {
 
-  header .banner-img3 {
-    &::before {
-      background-image: linear-gradient(
-          to top,
-          rgba(0, 0, 0, 0.292),
-          rgb(0, 0, 0)
-        ),
-        url(/assets/manga/page3/The\ Beginning-After-the-End.webp);
-    }
+  //banner background(blur) + manga cover
+  .header3 .banner-bg,
+  .header3 .info .info__manga-img .info__manga-img__manga-cover {
+    background-image: url(/assets/manga/page3/Pumpkin\ Night.webp);
   }
-
+  
+  // manga container
   main {
     .manga3 {
       //*==========  Cards [START here]  ==========*//
