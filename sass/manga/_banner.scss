@@ -13,7 +13,6 @@
       width: 100%;
       height: 100%;
 
-
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -28,6 +27,11 @@
       display: grid;
       grid-template-columns: 1fr 3fr;
 
+      @media (max-width: 1035px) {
+        grid-template-columns: 1fr 2fr;
+
+      }
+
       // Row 1/Column 1
       &__manga-img {
         display: flex;
@@ -37,10 +41,14 @@
         &__manga-cover {
           width: 246px;
           height: 350px;
-
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
+
+          @media (max-width: 1035px) {
+            width: 185px;
+            height: 265px;
+          }
         }
       }
 
