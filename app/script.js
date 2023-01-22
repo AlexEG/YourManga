@@ -9,15 +9,18 @@ document.getElementById("cards").onmousemove = (e) => {
   }
 };
 
-
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
 
 // manga sub pages
 // manga single page app  [Page Controller]
-const mangaContaner = document.querySelector("#mangaContaner");
-const header = document.querySelector("#header");
 
+// manga contaner
+const mangaContaner = document.querySelector("#mangaContaner");
+// banner
+const header = document.querySelector("#header");
+// manga info [header/info/info__manga-info]
+const mangaInfo = document.querySelector("#mangaInfo");
 
 const btnpPage1 = document.querySelector("#btnpage1");
 const btnpPage2 = document.querySelector("#btnpage2");
@@ -119,11 +122,10 @@ readerBtn3.addEventListener("click", function () {
   }
 });
 
-
 //light Dark Mode
 
-const lightDarkMode =document.querySelector('#lightDarkMode');
-const mangaBody =document.querySelector('#mangaBody');
+const lightDarkMode = document.querySelector("#lightDarkMode");
+const mangaBody = document.querySelector("#mangaBody");
 
 lightDarkMode.addEventListener("click", function () {
   // mangaBody.toggleClass("light-theme")
@@ -133,26 +135,4 @@ lightDarkMode.addEventListener("click", function () {
   } else {
     mangaBody.classList.add("light-theme");
   }
-
-
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

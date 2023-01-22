@@ -47,6 +47,7 @@
       // Row 1/Column 2
       &__manga-info {
         padding: 50px 0 0 0;
+
         h1 {
           color: rgb(255, 255, 255);
           text-shadow: 0 0 1px;
@@ -63,6 +64,7 @@
         p {
           color: hsla(0, 0%, 100%, 0.522);
           margin-bottom: 5px;
+          line-height: 1.3;
         }
       }
     }

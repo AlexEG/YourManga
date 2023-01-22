@@ -15,8 +15,20 @@ btnpPage1.addEventListener("click", function () {
   btnactive4.classList.remove("active");
   btnactive1.classList.add("active");
 
+  // manga info
+  mangaInfo.innerHTML = `<h1>Awkward Senpai</h1>
+  <p>Artists: Kudo Makoto</p>
+  <p>Authors: 
+    Kudo Makoto</p>
+  <p>
+    Genres: Comedy, Romance, Slice of Life, Office Workers
+  </p>
+  <h2>Description</h2>
+  <p>
+    A fluffy story about a coworker who can't express her love for her subordinate.
+  </p>`;
 
-
+  // card id
   mangaContaner.innerHTML = `
 <div class="manga__card card1">
   <div id="readerBtn1" class="btn">quick view</div>
