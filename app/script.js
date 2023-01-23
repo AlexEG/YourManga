@@ -18,9 +18,7 @@ document.getElementById("cards").onmousemove = (e) => {
 // manga contaner
 const mangaContaner = document.querySelector("#mangaContaner");
 // banner
-const header = document.querySelector("#header");
-// manga info [header/info/info__manga-info]
-const mangaInfo = document.querySelector("#mangaInfo");
+
 
 const btnpPage1 = document.querySelector("#btnpage1");
 const btnpPage2 = document.querySelector("#btnpage2");

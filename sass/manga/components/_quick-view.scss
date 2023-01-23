@@ -14,11 +14,11 @@
     z-index: var(--reader);
 
     .bg-hide {
+      // border: solid 2px blue;
       position: absolute;
       height: 100%;
       width: 100%;
       background: hsla(0, 0%, 0%, 0.849);
-      border: solid 2px blue;
       z-index: var(--bg-hide);
     }
 

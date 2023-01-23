@@ -5,25 +5,11 @@ btnpPage1.addEventListener("click", function () {
   mangaContaner.classList.remove("manga4");
   mangaContaner.classList.add("manga1");
 
-  header.classList.remove("header2");
-  header.classList.remove("header3");
-  header.classList.remove("header4");
-  header.classList.add("header1");
-
-
+  // banner img + manga cover
+  header1();
 
   // manga info
-  mangaInfo.innerHTML = `<h1>Awkward Senpai</h1>
-  <p>Artists: Kudo Makoto</p>
-  <p>Authors: 
-    Kudo Makoto</p>
-  <p>
-    Genres: Comedy, Romance, Slice of Life, Office Workers
-  </p>
-  <h2>Description</h2>
-  <p>
-    A fluffy story about a coworker who can't express her love for her subordinate.
-  </p>`;
+  bannerInfo1();
 
   // card id
   mangaContaner.innerHTML = `

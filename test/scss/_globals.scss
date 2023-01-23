@@ -94,3 +94,28 @@ header {
     }
   }
 }
+
+.arrow {
+  width: 80px;
+  height: 35px;
+  padding: 5px 5px 0;
+  outline: solid rgb(0, 255, 0) 1px;
+  margin-inline: auto;
+  display: flex;
+
+  div:first-child,
+  div:last-child {
+    height: 25px;
+    width: 25px;
+    border: solid 2px;
+    margin-inline: 5px;
+    border-color: hsla(0, 0%, 100%, 0.547)hsla(0, 0%, 100%, 0.547) transparent transparent ;
+    
+  }
+  div:first-child {
+    transform: rotate(225deg);
+  }
+  div:last-child {
+    transform: rotate(45deg);
+  }
+}
