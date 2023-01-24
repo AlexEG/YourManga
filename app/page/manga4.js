@@ -5,18 +5,12 @@ btnpPage4.addEventListener("click", function () {
   mangaContaner.classList.remove("manga3");
   mangaContaner.classList.add("manga4");
 
-  header.classList.remove("header1");
-  header.classList.remove("header2");
-  header.classList.remove("header3");
-  header.classList.add("header4");
+  // banner img + manga cover
+  header4();
+  // manga info
+  bannerInfo4();
 
-
-
-  btnactive1.classList.remove("active");
-  btnactive2.classList.remove("active");
-  btnactive3.classList.remove("active");
-  btnactive4.classList.add("active");
-
+  // card id
   mangaContaner.innerHTML = `
   <div class="manga__card card1">
     <div id="readerBtn37" class="btn">quick view</div>
@@ -54,6 +48,4 @@ btnpPage4.addEventListener("click", function () {
   <div class="manga__card card12">
     <div id="readerBtn48" class="btn">quick view</div>
   </div>`;
-
-  
 });

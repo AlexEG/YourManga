@@ -9,14 +9,15 @@ document.getElementById("cards").onmousemove = (e) => {
   }
 };
 
-
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
 
 // manga sub pages
 // manga single page app  [Page Controller]
+
+// manga contaner
 const mangaContaner = document.querySelector("#mangaContaner");
-const header = document.querySelector("#header");
+// banner
 
 
 const btnpPage1 = document.querySelector("#btnpage1");
@@ -36,123 +37,3 @@ const btnactive4 = document.querySelector("#btnactive4");
 
 //////////////////////////////////////////////////////
 //////////////////////////////////////////////////////
-const reader = document.querySelector("#reader");
-const readerBg = document.querySelector("#readerBg");
-const readerBtn1 = document.querySelector("#readerBtn1");
-const readerBtn2 = document.querySelector("#readerBtn2");
-const readerBtn3 = document.querySelector("#readerBtn3");
-const quickview = document.querySelector("#quickview");
-
-readerBg.addEventListener("click", function () {
-  reader.classList.add("hide");
-});
-
-//
-readerBtn1.addEventListener("click", function () {
-  quickview.innerHTML = `
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_638b07a738bed/d1e9c1720ecafde116bc392a0c0482b7/2.webp"
-  alt=""
-/>
-<img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_638b07a738bed/9b7d51b0536cd74c992c7d6ce44bab62/2.webp"
-  alt=""
-/>
-<img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_638b07a738bed/9b7d51b0536cd74c992c7d6ce44bab62/1.webp"
-  alt=""
-/>`;
-
-  if (reader.classList.contains("hide")) {
-    reader.classList.remove("hide");
-  } else {
-    reader.classList.add("hide");
-  }
-});
-
-readerBtn2.addEventListener("click", function () {
-  quickview.innerHTML = `
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_61e261acd222c/fd0aec59f5cba517c2df7119a540b60c/1.jpg"
-  alt=""
-/>
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_61e261acd222c/fd0aec59f5cba517c2df7119a540b60c/2.jpg"
-  alt=""
-/>
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_61e261acd222c/fd0aec59f5cba517c2df7119a540b60c/3.jpg"
-  alt=""
-/>
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_61e261acd222c/fd0aec59f5cba517c2df7119a540b60c/4.jpg"
-  alt=""
-/>
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_61e261acd222c/fd0aec59f5cba517c2df7119a540b60c/5.jpg"
-  alt=""
-/>
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_61e261acd222c/fd0aec59f5cba517c2df7119a540b60c/6.jpg"
-  alt=""
-/>
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_61e261acd222c/fd0aec59f5cba517c2df7119a540b60c/7.jpg"
-  alt=""
-/>
-  <img
-  src="https://coffeemanga.io/wp-content/uploads/WP-manga/data/manga_61e261acd222c/fd0aec59f5cba517c2df7119a540b60c/8.jpg"
-  alt=""
-/>
-`;
-  if (reader.classList.contains("hide")) {
-    reader.classList.remove("hide");
-  } else {
-    reader.classList.add("hide");
-  }
-});
-readerBtn3.addEventListener("click", function () {
-  if (reader.classList.contains("hide")) {
-    reader.classList.remove("hide");
-  } else {
-    reader.classList.add("hide");
-  }
-});
-
-
-//light Dark Mode
-
-const lightDarkMode =document.querySelector('#lightDarkMode');
-const mangaBody =document.querySelector('#mangaBody');
-
-lightDarkMode.addEventListener("click", function () {
-  // mangaBody.toggleClass("light-theme")
-
-  if (mangaBody.classList.contains("light-theme")) {
-    mangaBody.classList.remove("light-theme");
-  } else {
-    mangaBody.classList.add("light-theme");
-  }
-
-
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
