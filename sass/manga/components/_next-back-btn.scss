@@ -1,0 +1,57 @@
+.manga__body {
+  header {
+    .info {
+      .next-back {
+        // outline: solid rgb(0, 255, 0) 1px;
+        width: 80px;
+        height: 35px;
+        padding: 5px 5px 0;
+        margin-inline: auto;
+        display: flex;
+        position: absolute;
+        bottom: 10px;
+        right: 25px;
+
+        div:first-child,
+        div:last-child {
+          height: 25px;
+          width: 25px;
+          border: solid 2px;
+          margin-inline: 5px;
+          border-color: hsla(0, 0%, 100%, 0.547) hsla(0, 0%, 100%, 0.547)
+            transparent transparent;
+          transition: border-color 300ms;
+          cursor: pointer;
+          transform: rotate(45deg);
+        }
+
+        div:first-child {
+          border-color: transparent transparent hsla(0, 0%, 100%, 0.547)
+            hsla(0, 0%, 100%, 0.547);
+
+          &:hover {
+            border-color: transparent transparent hsla(0, 0%, 100%, 0.89)
+              hsla(0, 0%, 100%, 0.89);
+          }
+
+          &:active {
+            border-color: transparent transparent hsla(0, 0%, 100%, 0.288)
+              hsla(0, 0%, 100%, 0.288);
+          }
+        }
+
+        div:last-child {
+          &:hover {
+            border-color: hsla(0, 0%, 100%, 0.89) hsla(0, 0%, 100%, 0.89)
+              transparent transparent;
+          }
+
+          &:active {
+            border-color: hsla(0, 0%, 100%, 0.288) hsla(0, 0%, 100%, 0.288)
+              transparent transparent;
+          }
+        }
+      }
+    }
+  }
+}
