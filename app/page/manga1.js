@@ -5,13 +5,18 @@ btnpPage1.addEventListener("click", function () {
   mangaContaner.classList.remove("manga4");
   mangaContaner.classList.add("manga1");
 
-  // banner img + manga cover
-  header1();
+  header.classList.remove("header2");
+  header.classList.remove("header3");
+  header.classList.remove("header4");
+  header.classList.add("header1");
 
-  // manga info
-  bannerInfo1();
+  btnactive2.classList.remove("active");
+  btnactive3.classList.remove("active");
+  btnactive4.classList.remove("active");
+  btnactive1.classList.add("active");
 
-  // card id
+
+
   mangaContaner.innerHTML = `
 <div class="manga__card card1">
   <div id="readerBtn1" class="btn">quick view</div>

@@ -1,82 +1,82 @@
 .manga__body {
-  //banner background(blur) + manga cover
 
+  //banner background(blur) + manga cover
   .header1 .banner-bg,
   .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    background-image: url(../../../../alexeg.github.io/assets/books/JavaScript\ for\ Dummies\ 4Th\ Ed.png);
+    background-image: url(/assets/manga/page1/Awkward_Senpai.webp);
   }
 
   // manga container
   main {
     .manga1 {
       .card1 {
-        background-image: url(../../../assets/The\ Beginning-After-the-End.webp);
+        background-image: url(/assets/manga/page1/Chainsaw_Man.webp);
         &::after {
           content: "Chainsaw Man";
         }
       }
       .card2 {
-        background-image: url(../../../assets/Black\ Clover.PNG);
+        background-image: url(/assets/manga/page1/Awkward_Senpai.webp);
         &::after {
-          content: "mieruko-chan";
+          content: "Awkward Senpai";
         }
       }
       .card3 {
-        background-image: url(../../../assets/manga-cover/page1/2.5_Dimensional_Seduction.webp);
+        background-image: url(/assets/manga/page1/2.5_Dimensional_Seduction.webp);
         &::after {
           content: "2.5 Dimensional Seduction";
         }
       }
       .card4 {
-        background-image: url(../../../assets/manga-cover/page1/7_troublesome_days__Vol.1_Ch.5-26.webp);
+        background-image: url(/assets/manga/page1/7_troublesome_days__Vol.1_Ch.5-26.webp);
         &::after {
           content: "Sometimes Even Reality Is a Lie!";
         }
       }
       .card5 {
-        background-image: url(../../../assets/manga-cover/page1/Berserk_of_Gluttony.webp);
+        background-image: url(/assets/manga/page1/Berserk_of_Gluttony.webp);
         &::after {
           content: "Berserk of Gluttony";
         }
       }
       .card7 {
-        background-image: url(../../../assets/manga-cover/page1/Boy-s\ Abyss.webp);
+        background-image: url(/assets/manga/page1/Boy-s\ Abyss.webp);
         &::after {
           content: "Boy's Abyss";
         }
       }
       .card6 {
-        background-image: url(../../../assets/manga-cover/page1/Awkward_Senpai.webp);
+        background-image: url(/assets/manga/page1/FBEfBXwVgAQRSE1.webp);
         &::after {
-          content: "Awkward Senpai";
+          content: "Name of manga and somedfghdfghfd other info";
         }
       }
       .card8 {
-        background-image: url(../../../Awkward_Senpai.webp);
+        background-image: url(/assets/manga/page1/Boy-s\ Abyss\ -\ Vol.\ 4\,\ Ch.\ 32_\ Decision\ -\ 2.webp);
         &::after {
           content: "Name of mangdfghdfhfda and some other info";
         }
       }
       .card9 {
-        background-image: url(../../../Solo\ Leveling.PNG);
+        background-image: url(/assets/manga/page1/Boy-s\ Abyss\ -\ Vol.\ 6\,\ Ch.\ 49_\ Waiting\ for\ Spring\ -\ 2.webp);
         &::after {
           content: "Name of mangjgfdhfghjfdgha and some other info";
         }
       }
       .card10 {
-        background-image: url(../../../assets/manga-cover/page1/Boy-s\ Abyss\ -\ Vol.\ 8\,\ Ch.\ 78\ -\ 2.webp);
+        background-image: url(/assets/manga/page1/Boy-s\ Abyss\ -\ Vol.\ 8\,\ Ch.\ 78\ -\ 2.webp);
         &::after {
           content: "Boy's Abyss  [Vol. 8]  [Ch. 78]";
         }
       }
       .card11 {
-        background-image: url(../../../assets/manga-cover/page1/ID_INVADED_BRAKE_BROKEN.webp);
+        background-image: url(/assets/manga/page1/ID_INVADED_BRAKE_BROKEN.webp);
         &::after {
           content: "ID INVADED #BRAKE BROKEN";
         }
       }
       .card12 {
-        background-image: url(../../../assets/manga-cover/page1/Im_Not_That_Kind_of_Talent.webp);
+        background-image: url(/assets/manga/page1/Im_Not_That_Kind_of_Talent.webp);
         &::after {
           content: "I'm Not That Kind of Talent";
         }

@@ -8,6 +8,8 @@
     position: relative;
     padding-top: 35px;
 
+    //*==========  manga__main__contanier [START here]  ==========*//
+    
     .manga__contaner {
       // outline: solid 2px rgb(0, 255, 234); ///////
       min-width: 370px;
@@ -20,8 +22,49 @@
       // justify-content: space-between;
       row-gap: 30px;
       ///////////
+      //*==========  manga__main__contanier [END here]  ==========*//
     }
 
     //todo main__container__manga__page [END]
+
+    .btn {
+      width: 100px;
+      height: 25px;
+      background-color: rgba(195, 68, 226, 0.527);
+      cursor: pointer;
+      z-index: 99;
+      position: absolute;
+    }
   }
+}
+
+.reader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  top: 0;
+
+  .bg-hide {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: hsla(0, 0%, 0%, 0.877);
+  }
+}
+
+.manga-page {
+  width: 450px;
+  height: 100%;
+  margin-inline: auto;
+  position: relative;
+  overflow: auto;
+
+  img:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.hide {
+  display: none;
 }

@@ -13,6 +13,7 @@
       width: 100%;
       height: 100%;
 
+
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -21,15 +22,11 @@
     }
 
     .info {
-      background-color: hsla(0, 0%, 0%, 0.712);
+      background-color: hsla(0, 0%, 0%, 0.322);
       width: 100%;
       height: 100%;
       display: grid;
       grid-template-columns: 1fr 3fr;
-
-      @media (max-width: 1035px) {
-        grid-template-columns: 1fr 2fr;
-      }
 
       // Row 1/Column 1
       &__manga-img {
@@ -40,21 +37,16 @@
         &__manga-cover {
           width: 246px;
           height: 350px;
+
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
-
-          @media (max-width: 1035px) {
-            width: 185px;
-            height: 265px;
-          }
         }
       }
 
       // Row 1/Column 2
       &__manga-info {
         padding: 50px 0 0 0;
-
         h1 {
           color: rgb(255, 255, 255);
           text-shadow: 0 0 1px;
@@ -71,7 +63,6 @@
         p {
           color: hsla(0, 0%, 100%, 0.522);
           margin-bottom: 5px;
-          line-height: 1.3;
         }
       }
     }

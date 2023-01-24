@@ -1,83 +1,84 @@
 .manga__body {
+
   //banner background(blur) + manga cover
   .header3 .banner-bg,
   .header3 .info .info__manga-img .info__manga-img__manga-cover {
-    background-image: url(../../../assets/manga-cover/page3/The\ Beginning-After-the-End.webp);
+    background-image: url(/assets/manga/page3/Pumpkin\ Night.webp);
   }
-
+  
   // manga container
   main {
     .manga3 {
       //*==========  Cards [START here]  ==========*//
       .card1 {
-        background-image: url(../../../assets/manga-cover/page3/Re_Vol_16_English.webp);
+        background-image: url(/assets/manga/page3/Re_Vol_16_English.webp);
         &::after {
           content: "Tokyo Ghoul";
         }
       }
       .card2 {
-        background-image: url(../../../assets/manga-cover/page3/Volume_1.webp);
+        background-image: url(/assets/manga/page3/Volume_1.webp);
         &::after {
           content: "0000000";
         }
       }
       .card3 {
-        background-image: url(../../../assets/manga-cover/page3/81QDxVfY65L.webp);
+        background-image: url(/assets/manga/page3/81QDxVfY65L.webp);
         &::after {
           content: "TOMIE";
         }
       }
       .card4 {
-        background-image: url(../../../assets/manga-cover/page3/Fushi\ no\ Sougishi.webp);
+        background-image: url(/assets/manga/page3/Fushi\ no\ Sougishi.webp);
         &::after {
           content: "Fushi no Sougishi";
         }
       }
       .card5 {
-        background-image: url(../../../assets/manga-cover/page3/Kings-Viking.webp);
+        background-image: url(/assets/manga/page3/Kings-Viking.webp);
         &::after {
           content: "Kings' Viking";
         }
       }
       .card6 {
-        background-image: url(../../../assets/manga-cover/page3/Pumpkin\ Night.webp);
+        background-image: url(/assets/manga/page3/Pumpkin\ Night.webp);
         &::after {
           content: "Pumpkin Night";
         }
       }
       .card7 {
-        background-image: url(../../../assets/manga-cover/page3/Reincarnation\ of\ the\ Suicidal\ Battle\ God.webp);
+        background-image: url(/assets/manga/page3/Reincarnation\ of\ the\ Suicidal\ Battle\ God.webp);
         &::after {
           content: "Reincarnation of the Suicidal Battle God";
         }
       }
       .card8 {
-        background-image: url(../../../assets/manga-cover/page3/Kaiju\ No.\ 8.webp);
+        background-image: url(/assets/manga/page3/Kaiju\ No.\ 8.webp);
 
         &::after {
           content: "Kaiju No. 8";
         }
       }
       .card9 {
-        background-image: url(../../../assets/manga-cover/page3/Jumyou\ wo\ Kaitotte\ Moratta.\ Ichinen\ ni\ Tsuki\,\ Ichimanen\ de..webp);
+        background-image: url(/assets/manga/page3/Jumyou\ wo\ Kaitotte\ Moratta.\ Ichinen\ ni\ Tsuki\,\ Ichimanen\ de..webp);
         &::after {
           content: "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.";
         }
       }
       .card10 {
-        background-image: url(../../../assets/manga-cover/page3/The\ Beginning-After-the-End.webp);
+        background-image: url(/assets/manga/page3/The\ Beginning-After-the-End.webp);
         &::after {
           content: "The Beginning After the End";
         }
       }
       .card11 {
-        background-image: url(../../../assets/manga-cover/page3/Jujika\ no\ Rokunin.webp);
+        background-image: url(/assets/manga/page3/Jujika\ no\ Rokunin.webp);
         &::after {
           content: "Jujika no Rokunin";
         }
       }
       .card12 {
-        background-image: url(../../../assets/manga-cover/page3/Kakegurui\ -\ Compulsive\ Gambler\ -\ Chapter\ 1\ -\ 1.webp);
+        background-image: url(/assets/manga/page3/Kakegurui\ -\ Compulsive\ Gambler\ -\ Chapter\ 1\ -\ 1.webp);
         &::after {
           content: "Kakegurui - Compulsive Gambler - Chapter 1 - 1";
         }
