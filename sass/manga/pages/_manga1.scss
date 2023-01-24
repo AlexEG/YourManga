@@ -2,20 +2,20 @@
   //banner background(blur) + manga cover
   .header1 .banner-bg,
   .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    background-image: url(../../../assets/manga-cover/page1/Awkward_Senpai.webp);
+    background-image: url(../../../assets/Black\ Clover.PNG);
   }
 
   // manga container
   main {
     .manga1 {
       .card1 {
-        background-image: url(../../../assets/manga-cover/page1/Chainsaw_Man.webp);
+        background-image: url(../../../assets/The\ Beginning-After-the-End.webp);
         &::after {
           content: "Chainsaw Man";
         }
       }
       .card2 {
-        background-image: url(../../../assets/manga-cover/page1/FBEfBXwVgAQRSE1.webp);
+        background-image: url(../../../assets/Black\ Clover.PNG);
         &::after {
           content: "mieruko-chan";
         }
