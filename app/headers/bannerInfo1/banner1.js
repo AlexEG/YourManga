@@ -1,4 +1,4 @@
-function bannerInfo1() {
+function bannerInfo1B1() {
   mangaInfo.innerHTML = `
   <h1>Tomo-chan wa Onna no ko!</h1>
   <p>Artists: Yanagida Fumita</p>
@@ -21,9 +21,3 @@ function bannerInfo1() {
   </p>`;
 }
 
-function header1() {
-  header.classList.remove("header2");
-  header.classList.remove("header3");
-  header.classList.remove("header4");
-  header.classList.add("header1");
-}

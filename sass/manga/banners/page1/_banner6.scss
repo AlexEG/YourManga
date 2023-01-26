@@ -1,43 +1,19 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
+  .header1b6 .banner-bg,
+  .header1b6 .info .info__manga-img .info__manga-img__manga-cover {
     animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+    animation-duration: 5s;
+    animation-name: page1banner6;
 
-    @keyframes banner1 {
+    @keyframes page1banner6 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(/assets/manga-covers/manga-page2-webp/Beautiful\ Girl\ and\ Dangerous\ Bodyguard.webp);
       }
-      15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
-      }
-      30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
-      }
-      45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
-      }
-      60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
-      }
-      75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
-      }
-      80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
-      }
+
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(/assets/manga-covers/manga-page2-webp/I\ Have\ a\ Second\ Chance\ at\ Life\,\ so\ I’ll\ Pamper\ My\ Yandere\ Boyfriend\ for\ a\ Happy\ Ending!!.webp);
       }
     }
   }

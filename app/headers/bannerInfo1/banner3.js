@@ -1,4 +1,4 @@
-function bannerInfo3() {
+function bannerInfo1B3() {
   // manga info
   mangaInfo.innerHTML = `<h1>The Beginning After the End</h1>
 <p>Artists: Fuyuki23</p>
@@ -26,9 +26,3 @@ function bannerInfo3() {
 </p>`;
 }
 
-function header3() {
-  header.classList.remove("header1");
-  header.classList.remove("header2");
-  header.classList.remove("header4");
-  header.classList.add("header3");
-}

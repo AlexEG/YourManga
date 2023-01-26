@@ -1,20 +1,13 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
+  .header1b1 .banner-bg,
+  .header1b1 .info .info__manga-img .info__manga-img__manga-cover {
     animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+    animation-duration: 30s;
+    animation-name: page1banner1;
 
-    @keyframes banner1 {
+    @keyframes page1banner1 {
       0% {
         background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
       }

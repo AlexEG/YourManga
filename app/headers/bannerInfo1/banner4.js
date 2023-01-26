@@ -1,4 +1,4 @@
-function bannerInfo4() {
+function bannerInfo1B4() {
   // manga info
   mangaInfo.innerHTML = `<h1>Sono Bisque Doll wa Koi wo Suru</h1>
   <p>Artists: Fukuda Shinichi</p>
@@ -11,9 +11,3 @@ function bannerInfo4() {
 }
 
 
-function header4() {
-  header.classList.remove("header1");
-  header.classList.remove("header2");
-  header.classList.remove("header3");
-  header.classList.add("header4");
-}

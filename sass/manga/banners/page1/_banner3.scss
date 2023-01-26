@@ -1,19 +1,12 @@
 .manga__body {
   //banner background(blur) + manga cover
-  .header3 .banner-bg,
-  .header3 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 28s;
-    animation-duration: 28s;
-    -webkit-animation-iteration-count: infinite;
+  .header1b3 .banner-bg,
+  .header1b3 .info .info__manga-img .info__manga-img__manga-cover {
     animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner3;
-    animation-name: banner3;
+    animation-duration: 28s;
+    animation-name: page1banner3;
 
-    @keyframes banner3 {
+    @keyframes page1banner3 {
       0% {
         background-image: url(/assets/manga-banner/pumpkin-night/pumpkin-night-1.webp);
       }

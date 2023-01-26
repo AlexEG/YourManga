@@ -1,4 +1,4 @@
-function bannerInfo2() {
+function bannerInfo1B2() {
 // manga info
 mangaInfo.innerHTML = `<h1>Uzaki-chan Wants to Hang Out!</h1>
 <p>Artists: Take</p>
@@ -13,9 +13,3 @@ Sugoi Dekai means something along the lines of "impressively huge."
 </p>`;
 }
 
-function header2() {
-  header.classList.remove("header1");
-  header.classList.remove("header3");
-  header.classList.remove("header4");
-  header.classList.add("header2");
-}

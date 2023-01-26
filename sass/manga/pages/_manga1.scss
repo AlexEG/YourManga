@@ -3,39 +3,39 @@
   main {
     .manga1 {
       .card1 {
-        background-image: url(../assets/manga-covers/manga-page1-webp/Chainsaw_Man.webp);
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
         &::after {
-          content: "Chainsaw Man";
+          content: "tomo-chan";
         }
       }
       .card2 {
-        background-image: url(../assets/manga-covers/manga-page1-webp/FBEfBXwVgAQRSE1.webp);
+        background-image: url(/assets/manga-banner/mieruko-chan/mieruko-chan-8.webp);
         &::after {
           content: "mieruko-chan";
         }
       }
       .card3 {
-        background-image: url(../assets/manga-covers/manga-page1-webp/2.5_Dimensional_Seduction.webp);
+        background-image: url(/assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling10.webp);
         &::after {
-          content: "2.5 Dimensional Seduction";
+          content: "my dress up darling";
         }
       }
       .card4 {
-        background-image: url(../assets/manga-covers/manga-page1-webp/7_troublesome_days__Vol.1_Ch.5-26.webp);
+        background-image: url(/assets/manga-banner/pumpkin-night/pumpkin-night-7.webp);
         &::after {
-          content: "Sometimes Even Reality Is a Lie!";
+          content: "pumpkin night";
         }
       }
       .card5 {
-        background-image: url(../assets/manga-covers/manga-page1-webp/Berserk-of-Gluttony.webp);
+        background-image: url(/assets/manga-banner/chainsaw-man/chainsaw-man-13.webp);
         &::after {
-          content: "Berserk of Gluttony";
+          content: "chainsaw-man";
         }
       }
       .card6 {
-        background-image: url(../assets/manga-covers/manga-page1-webp/Awkward-Senpai.webp);
+        background-image: url(/assets/manga-banner/uzaki-chan-wants-to-hang-out/uzaki-chan-9.webp);
         &::after {
-          content: "Awkward Senpai";
+          content: "uzaki-chan-wants-to-hang-out";
         }
       }
       .card7 {
