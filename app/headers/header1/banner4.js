@@ -1,29 +1,19 @@
-function bannerInfo1() {
-  mangaInfo.innerHTML = `
-  <h1>Tomo-chan wa Onna no ko!</h1>
-  <p>Artists: Yanagida Fumita</p>
-  <p>Authors: Yanagida Fumita</p>
-  <p>Status: Completed</p>
-  <p>Ranked: #437</p>
-
-  <p>
-    Genres: 4-Koma, Comedy, Romance, School Life, Slice of Life,
-    Sports
-  </p>
+function bannerInfo4() {
+  // manga info
+  mangaInfo.innerHTML = `<h1>Sono Bisque Doll wa Koi wo Suru</h1>
+  <p>Artists: Fukuda Shinichi</p>
+  <p>Authors: Fukuda Shinichi</p>
+  <p>Genres: Comedy, Ecchi, Gyaru, Romance, School Life, Slice of Life, Crossdressing</p>
   <h2>Description</h2>
   <p>
-    Tomo Aizawa was able to successfully confess to her crush
-    Junichirou Kubota. <br />
-    There is only one problem: He just sees her as his buddy. He
-    thought that she was a boy until they went to middle school
-    together, because her grade school was in a different school
-    district.
+  Wakana Gojou is a fifteen year old high-school boy who was socially traumatized in the past due to his passions. <br /> That incident left a mark on him that made him into a social recluse. <br /> Until one day he had an encounter with Kitagawa who is a sociable gyaru, who is the complete opposite of him. <br /> They soon share their passions with one another which leads to their odd relationship.
   </p>`;
 }
 
-function header1() {
+
+function header4() {
+  header.classList.remove("header1");
   header.classList.remove("header2");
   header.classList.remove("header3");
-  header.classList.remove("header4");
-  header.classList.add("header1");
+  header.classList.add("header4");
 }
