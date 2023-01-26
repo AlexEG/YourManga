@@ -1,0 +1,44 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header1 .banner-bg,
+  .header1 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-name: banner1;
+    animation-name: banner1;
+
+    @keyframes banner1 {
+      0% {
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+      }
+      15% {
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+      }
+      30% {
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+      }
+      45% {
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+      }
+      60% {
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+      }
+      75% {
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+      }
+      80% {
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+      }
+      100% {
+        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+      }
+    }
+  }
+}
