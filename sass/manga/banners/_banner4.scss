@@ -1,0 +1,52 @@
+.manga__body {
+  //banner background(blur) + manga cover
+  .header4 .banner-bg,
+  .header4 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-name: banner4;
+    animation-name: banner4;
+
+    @keyframes banner4 {
+      0% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling2.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling3.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling4.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling5.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling6.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling7.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling8.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling9.webp);
+      }
+      90% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling10.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-banner/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling1.webp);
+      }
+    }
+  }
+}
