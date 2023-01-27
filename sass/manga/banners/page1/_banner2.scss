@@ -2,12 +2,35 @@
   //banner background(blur) + manga cover
   .header1b2 .banner-bg,
   .header1b2 .info .info__manga-img .info__manga-img__manga-cover {
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-play-state: running;
+    -webkit-animation: 25s linear 0s infinite running page1banner2;
+    animation: 25s linear 0s infinite running page1banner2;
 
-    animation-duration: 30s;
-    animation-name: page1banner2;
+    @-webkit-keyframes page1banner2 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-2.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-3.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-4.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-5.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-6.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-7.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-8.webp);
+      }
+    }
 
     @keyframes page1banner2 {
       0% {

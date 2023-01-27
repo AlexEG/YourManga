@@ -16,15 +16,15 @@
         }
       }
       .card3 {
-        background-image: url(../assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling10.webp);
-        &::after {
-          content: "My Dress up Darling";
-        }
-      }
-      .card4 {
         background-image: url(../assets/manga-covers/manga-page1-webp/pumpkin-night/pumpkin-night-7.webp);
         &::after {
           content: "Pumpkin Night";
+        }
+      }
+      .card4 {
+        background-image: url(../assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling10.webp);
+        &::after {
+          content: "My Dress up Darling";
         }
       }
       .card5 {

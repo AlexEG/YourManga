@@ -1,15 +1,100 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header2b1 .banner-bg,
-  .header2b1 .info .info__manga-img .info__manga-img__manga-cover {
-    animation-iteration-count: infinite;
-    animation-duration: 40s;
-    animation-name: page2banner1;
+  .header2b9 .banner-bg,
+  .header2b9 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 40s linear 0s infinite running  page2banner9;
+            animation: 40s linear 0s infinite running  page2banner9;
 
-    @keyframes page2banner1 {
+
+    @-webkit-keyframes page2banner9 {
       0% {
-        background-image: url(/assets/manga-covers/manga-page2-webp/Ajin/Ajin-1.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-1.webp);
+      }
+      6% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-2.webp);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-3.webp);
+      }
+      18% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-4.webp);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-5.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-6.webp);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-7.webp);
+      }
+      42% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-8.webp);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-9.webp);
+      }
+      54% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-10.webp);
+      }
+      62% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-11.webp);
+      }
+      71% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-12.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-13.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-14.webp);
+      }
+    }
+
+
+    @keyframes page2banner9 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-1.webp);
+      }
+      6% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-2.webp);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-3.webp);
+      }
+      18% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-4.webp);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-5.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-6.webp);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-7.webp);
+      }
+      42% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-8.webp);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-9.webp);
+      }
+      54% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-10.webp);
+      }
+      62% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-11.webp);
+      }
+      71% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-12.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-13.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-14.webp);
       }
     }
   }
