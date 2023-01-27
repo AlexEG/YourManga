@@ -62,8 +62,6 @@ next.addEventListener("click", function () {
     header.classList.remove("header1b12");
     header.classList.add("header1b1");
     bannerInfo1B1();
-  } else {
-    mangaBody.classList.add("light-theme");
   }
 });
 
@@ -126,7 +124,5 @@ back.addEventListener("click", function () {
     header.classList.remove("header1b12");
     header.classList.add("header1b11");
     bannerInfo1B1();
-  } else {
-    mangaBody.classList.add("light-theme");
   }
 });

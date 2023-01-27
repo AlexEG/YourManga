@@ -1,0 +1,83 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header2b3 .banner-bg,
+  .header2b3 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 40s linear 0s infinite running  page2banner3;
+            animation: 40s linear 0s infinite running  page2banner3;
+
+
+    @-webkit-keyframes page2banner3 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-2.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-3.png);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-4.png);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-5.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-6.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-7.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-8.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-9.webp);
+      }
+      90% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-10.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-11.webp);
+      }
+    }
+
+
+    @keyframes page2banner3 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-2.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-3.png);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-4.png);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-5.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-6.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-7.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-8.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-9.webp);
+      }
+      90% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-10.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-11.webp);
+      }
+    }
+  }
+}

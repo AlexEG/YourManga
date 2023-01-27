@@ -1,43 +1,74 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+  .header2b10 .banner-bg,
+  .header2b10 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 25s linear 0s infinite running page2banner10;
+    animation: 25s linear 0s infinite running page2banner10;
 
-    @keyframes banner1 {
+    @-webkit-keyframes page2banner10 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-1.webp);
       }
-      15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+      10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-2.jpg);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-3.jpg);
       }
       30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-4.webp);
       }
-      45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+      40% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-5.jpg);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-6.jpg);
       }
       60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-7.jpg);
       }
-      75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+      70% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-8.webp);
       }
       80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-9.webp);
       }
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-10.webp);
+      }
+    }
+
+    @keyframes page2banner10 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-2.jpg);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-3.jpg);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-4.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-5.jpg);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-6.jpg);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-7.jpg);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-8.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-9.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Vanitas-no-Carte/Vanitas-no-Carte-10.webp);
       }
     }
   }

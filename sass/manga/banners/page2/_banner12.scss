@@ -1,43 +1,86 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+  .header2b12 .banner-bg,
+  .header2b12 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 40s linear 0s infinite running page2banner12;
+    animation: 40s linear 0s infinite running page2banner12;
 
-    @keyframes banner1 {
+    @-webkit-keyframes page2banner12 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-1.webp);
       }
-      15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+      10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-2.webp);
       }
-      30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+      19% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-3.webp);
       }
-      45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+      29% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-4.webp);
       }
-      60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+      38% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-5.webp);
       }
-      75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+      48% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-6.webp);
       }
-      80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+      58% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-7.webp);
+      }
+      67% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-8.jpg);
+      }
+      77% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-9.jpg);
+      }
+      86% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-10.jpg);
+      }
+      95% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-11.jpg);
       }
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-12.webp);
+      }
+    }
+
+    @keyframes page2banner12 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-2.webp);
+      }
+      19% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-3.webp);
+      }
+      29% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-4.webp);
+      }
+      38% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-5.webp);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-6.webp);
+      }
+      58% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-7.webp);
+      }
+      67% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-8.jpg);
+      }
+      77% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-9.jpg);
+      }
+      86% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-10.jpg);
+      }
+      95% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-11.jpg);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Satsuriku-no-Tenshi/Satsuriku-no-Tenshi-12.webp);
       }
     }
   }

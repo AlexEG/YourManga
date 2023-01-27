@@ -1,43 +1,130 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+  .header2b7 .banner-bg,
+  .header2b7 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 50s linear 0s infinite running  page2banner7;
+            animation: 50s linear 0s infinite running  page2banner7;
 
-    @keyframes banner1 {
+
+    @-webkit-keyframes page2banner7 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-0.webp);
+      }
+      5% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-2.webp);
       }
       15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-3.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-4.webp);
+      }
+      25% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-5.webp);
       }
       30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-6.webp);
+      }
+      35% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-7.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-8.webp);
       }
       45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-9.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-10.webp);
+      }
+      55% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-11.webp);
       }
       60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-12.webp);
+      }
+      65% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-13.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-14.webp);
       }
       75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-15.webp);
       }
       80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-16.png);
+      }
+      85% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-17.webp);
       }
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-18.webp);
+      }
+    }
+
+
+    @keyframes page2banner7 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-0.webp);
+      }
+      5% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-2.webp);
+      }
+      15% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-3.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-4.webp);
+      }
+      25% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-5.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-6.webp);
+      }
+      35% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-7.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-8.webp);
+      }
+      45% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-9.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-10.webp);
+      }
+      55% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-11.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-12.webp);
+      }
+      65% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-13.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-14.webp);
+      }
+      75% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-15.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-16.png);
+      }
+      85% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-17.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Toilet-bound-Hanako-kun/Hanako-kun-18.webp);
       }
     }
   }
