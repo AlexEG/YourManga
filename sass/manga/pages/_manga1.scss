@@ -1,84 +1,78 @@
 .manga__body {
-  //banner background(blur) + manga cover
-
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    background-image: url(../manga-covers/manga-page1-webp/Awkward-Senpai.webp);
-  }
-
   // manga container
   main {
     .manga1 {
       .card1 {
-        background-image: url(../manga-covers/manga-page1-webp/Chainsaw_Man.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+
+        &::after {
+          content: "Tomo-chan wa onna no ko";
+        }
+      }
+      .card2 {
+        background-image: url(../assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-8.webp);
+        &::after {
+          content: "Mieruko-chan";
+        }
+      }
+      .card3 {
+        background-image: url(../assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling10.webp);
+        &::after {
+          content: "My Dress up Darling";
+        }
+      }
+      .card4 {
+        background-image: url(../assets/manga-covers/manga-page1-webp/pumpkin-night/pumpkin-night-7.webp);
+        &::after {
+          content: "Pumpkin Night";
+        }
+      }
+      .card5 {
+        background-image: url(../assets/manga-covers/manga-page1-webp/chainsaw-man/chainsaw-man-13.webp);
         &::after {
           content: "Chainsaw Man";
         }
       }
-      .card2 {
-        background-image: url(../manga-covers/manga-page1-webp/FBEfBXwVgAQRSE1.webp);
-        &::after {
-          content: "mieruko-chan";
-        }
-      }
-      .card3 {
-        background-image: url(../manga-covers/manga-page1-webp/2.5_Dimensional_Seduction.webp);
-        &::after {
-          content: "2.5 Dimensional Seduction";
-        }
-      }
-      .card4 {
-        background-image: url(../manga-covers/manga-page1-webp/7_troublesome_days__Vol.1_Ch.5-26.webp);
-        &::after {
-          content: "Sometimes Even Reality Is a Lie!";
-        }
-      }
-      .card5 {
-        background-image: url(../manga-covers/manga-page1-webp/Berserk-of-Gluttony.webp);
-        &::after {
-          content: "Berserk of Gluttony";
-        }
-      }
       .card6 {
-        background-image: url(../manga-covers/manga-page1-webp/Awkward-Senpai.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/Mochizuki-sanchi-no-Yankee/Mochizuki-sanchi-no-Yankee-3.webp);
         &::after {
-          content: "Awkward Senpai";
+          content: "Mochizuki-sanchi-no-Yankee";
         }
       }
       .card7 {
-        background-image: url(../manga-covers/manga-page1-webp/Boy-s\ Abyss.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-12.webp);
         &::after {
-          content: "Boy's Abyss";
+          content: "Aho-Girl";
         }
       }
       .card8 {
-        background-image: url(../manga-covers/manga-page1-webp/Boy-s\ Abyss\ -\ Vol.\ 4\,\ Ch.\ 32_\ Decision\ -\ 2.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/SPYxFAMILY/SPYxFAMILY-10.jpg);
         &::after {
-          content: "Name of mangdfghdfhfda and some other info";
+          content: "SPY×FAMILY";
         }
       }
       .card9 {
-        background-image: url(../manga-covers/manga-page1-webp/Boy-s\ Abyss\ -\ Vol.\ 6\,\ Ch.\ 49_\ Waiting\ for\ Spring\ -\ 2.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/uzaki-chan-wants-to-hang-out/uzaki-chan-9.webp);
         &::after {
-          content: "Name of mangjgfdhfghjfdgha and some other info";
+          content: "Uzaki-chan Wants to Hang out";
         }
       }
       .card10 {
-        background-image: url(../manga-covers/manga-page1-webp/Boy-s\ Abyss\ -\ Vol.\ 8\,\ Ch.\ 78\ -\ 2.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-11e.webp);
         &::after {
-          content: "Boy's Abyss  [Vol. 8]  [Ch. 78]";
+          content: "Wotakoi Love is Hard";
         }
       }
       .card11 {
-        background-image: url(../manga-covers/manga-page1-webp/ID_INVADED_BRAKE_BROKEN.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-12.webp);
         &::after {
-          content: "ID INVADED #BRAKE BROKEN";
+          content: "Classroom of the Elite";
         }
       }
       .card12 {
-        background-image: url(../manga-covers/manga-page1-webp/Im_Not_That_Kind_of_Talent.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/Darling-in-the-FranXX/Darling-in-the-FranXX-8.webp);
         &::after {
-          content: "I'm Not That Kind of Talent";
+          content: "Darling in the FranXX";
         }
       }
       //*==========  Cards [END here]  ==========*//

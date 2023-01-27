@@ -1,0 +1,22 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header1b6 .banner-bg,
+  .header1b6 .info .info__manga-img .info__manga-img__manga-cover {
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    animation-name: page1banner6;
+
+    @keyframes page1banner6 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Mochizuki-sanchi-no-Yankee/Mochizuki-sanchi-no-Yankee-1.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Mochizuki-sanchi-no-Yankee/Mochizuki-sanchi-no-Yankee-2.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Mochizuki-sanchi-no-Yankee/Mochizuki-sanchi-no-Yankee-3.webp);
+      }
+    }
+  }
+}
