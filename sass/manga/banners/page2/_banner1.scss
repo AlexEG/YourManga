@@ -1,0 +1,66 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header2b1 .banner-bg,
+  .header2b1 .info .info__manga-img .info__manga-img__manga-cover {
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    animation-name: page2banner1;
+
+    @keyframes page2banner1 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-1.webp);
+      }
+      7% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-2.jpg);
+      }
+      13% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-3.jpg);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-4.jpg);
+      }
+      26% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-5.webp);
+      }
+      33% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-6.webp);
+      }
+      39% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-7.webp);
+      }
+      46% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-8.webp);
+      }
+      52% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-9.webp);
+      }
+      59% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-10.webp);
+      }
+      75% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-11.webp);
+      }
+      82% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-12.webp);
+      }
+      86% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-13.webp);
+      }
+      92% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-14.webp);
+      }
+      95% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-15.webp);
+      }
+      97% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-16.jpg);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Ajin/Ajin-17.webp);
+      }
+
+
+    }
+  }
+}

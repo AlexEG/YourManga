@@ -1,0 +1,49 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header2b2 .banner-bg,
+  .header2b2 .info .info__manga-img .info__manga-img__manga-cover {
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    animation-name: page2banner2;
+
+    @keyframes page2banner2 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-1.jpg);
+      }
+    10% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-2.jpg);
+      }
+      19% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-3.jpg);
+      }
+      28% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-4.webp);
+      }
+      39% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-5.webp);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-6.webp);
+      }
+      57% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-7.webp);
+      }
+      66% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-8.jpg);
+      }
+      74% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-9.jpg);
+      }
+      82% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-10.jpg);
+      }
+      94% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-11.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page2-webp/Sweet-Home/Sweet-Home-12.webp);
+      }
+    }
+  }
+}
