@@ -4,16 +4,45 @@
   .header1b7 .banner-bg,
   .header1b7 .info .info__manga-img .info__manga-img__manga-cover {
     animation-iteration-count: infinite;
-    animation-duration: 5s;
+    animation-duration: 35s;
     animation-name: page1banner7;
 
     @keyframes page1banner7 {
       0% {
-        background-image: url(/assets/manga-covers/manga-page3-webp/81QDxVfY65L.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-1.webp);
       }
-
+      10% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-2.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-3.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-4.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-5.webp);
+      }
+      47% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-6.webp);
+      }
+      55% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-7.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-8.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-9.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-10.webp);
+      }
+      90% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-11.webp);
+      }
       100% {
-        background-image: url(/assets/manga-covers/manga-page4-webp/Horimiya.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/Aho-Girl/Aho-Girl-12.webp);
       }
     }
   }

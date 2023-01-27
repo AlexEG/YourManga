@@ -4,17 +4,48 @@
   .header1b11 .banner-bg,
   .header1b11 .info .info__manga-img .info__manga-img__manga-cover {
     animation-iteration-count: infinite;
-    animation-duration: 5s;
+    animation-duration: 35s;
     animation-name: page1banner11;
 
     @keyframes page1banner11 {
       0% {
-        background-image: url(/assets/manga-covers/manga-page3-webp/Fushi\ no\ Sougishi.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-2.webp);
+      }
+      25% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-3.webp);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-4.webp);
+      }
+      44% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-5.webp);
+      }
+    52% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-6.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-7.webp);
+      }
+      68% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-8.webp);
+      }
+      76% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-9.webp);
+      }
+    85% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-10.webp);
+      }
+      92% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-11.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/classroom-of-the-elite/classroom-of-the-elite-12.webp);
       }
 
-      100% {
-        background-image: url(/assets/manga-covers/manga-page2-webp/Boarding\ School.webp);
-      }
+
     }
   }
 }

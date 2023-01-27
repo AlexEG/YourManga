@@ -1,7 +1,7 @@
 const nextBackBanner = document.querySelector("#nextBackBanner");
 
-const next = document.querySelector("#next1");
-const back = document.querySelector("#back1");
+const next = document.querySelector("#next");
+const back = document.querySelector("#back");
 
 next.addEventListener("click", function () {
   if (header.classList.contains("header1b1")) {

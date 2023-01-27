@@ -1,3 +1,5 @@
+const header = document.querySelector("#header");
+
 function header1() {
   header.classList.remove("header2");
   header.classList.remove("header3");

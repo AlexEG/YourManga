@@ -4,17 +4,49 @@
   .header1b10 .banner-bg,
   .header1b10 .info .info__manga-img .info__manga-img__manga-cover {
     animation-iteration-count: infinite;
-    animation-duration: 5s;
+    animation-duration: 35s;
+    animation-timing-function: linear;
     animation-name: page1banner10;
 
     @keyframes page1banner10 {
       0% {
-        background-image: url(/assets/manga-covers/manga-page2-webp/Suki\ x\ Suki.webp);
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-1.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-2.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-3.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-4.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-5.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-6.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-7.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-8.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-9.webp);
+      }
+      90% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-10.webp);
+      }
+      95% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-11.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-11e.webp);
       }
 
-      100% {
-        background-image: url(/assets/manga-covers/manga-page2-webp/Kaguya-sama\ wa\ Kokurasetai_.webp);
-      }
+
     }
   }
 }
