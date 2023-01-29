@@ -1,43 +1,110 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+  .header3b8 .banner-bg,
+  .header3b8 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 45s linear 0s infinite running page3banner8;
+    animation: 45s linear 0s infinite running page3banner8;
 
-    @keyframes banner1 {
+    @-webkit-keyframes page3banner8 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-1.png);
       }
-      15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+      6% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-2.png);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-3.png);
+      }
+      18% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-4.png);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-5.png);
       }
       30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-6.png);
       }
-      45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+      36% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-7.png);
+      }
+      42% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-8.png);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-9.png);
+      }
+      54% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-10.png);
       }
       60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-11.png);
       }
-      75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+      66% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-12.png);
       }
-      80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+      72% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-13.webp);
+      }
+      78% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-14.webp);
+      }
+      84% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-15.webp);
       }
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-16.webp);
+      }
+    }
+
+    @keyframes page3banner8 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-1.png);
+      }
+      6% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-2.png);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-3.png);
+      }
+      18% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-4.png);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-5.png);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-6.png);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-7.png);
+      }
+      42% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-8.png);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-9.png);
+      }
+      54% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-10.png);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-11.png);
+      }
+      66% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-12.png);
+      }
+      72% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-13.webp);
+      }
+      78% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-14.webp);
+      }
+      84% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-15.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-16.webp);
       }
     }
   }

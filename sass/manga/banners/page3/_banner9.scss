@@ -1,43 +1,152 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+  .header3b9 .banner-bg,
+  .header3b9 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 80s linear 0s infinite running page3banner9;
+            animation: 80s linear 0s infinite running page3banner9;
 
-    @keyframes banner1 {
+    @-webkit-keyframes page3banner9 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-1.webp);
       }
-      15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+      4% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-2.webp);
       }
-      30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+      8% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-3.webp);
       }
-      45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+      12% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-4.webp);
+      }
+      16% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-5.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-6.webp);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-7.webp);
+      }
+      28% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-8.webp);
+      }
+      32% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-9.webp);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-10.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-11.webp);
+      }
+      44% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-12.jpg);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-13.webp);
+      }
+      52% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-14.webp);
+      }
+      56% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-15.webp);
       }
       60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-16.jpg);
       }
-      75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+      64% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-17.webp);
+      }
+      68% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-18.webp);
+      }
+      72% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-19.webp);
+      }
+      76% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-20.webp);
       }
       80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-21.jpg);
+      }
+      84% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-22.webp);
       }
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-23.webp);
+      }
+    }
+
+    @keyframes page3banner9 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-1.webp);
+      }
+      4% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-2.webp);
+      }
+      8% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-3.webp);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-4.webp);
+      }
+      16% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-5.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-6.webp);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-7.webp);
+      }
+      28% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-8.webp);
+      }
+      32% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-9.webp);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-10.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-11.webp);
+      }
+      44% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-12.jpg);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-13.webp);
+      }
+      52% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-14.webp);
+      }
+      56% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-15.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-16.jpg);
+      }
+      64% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-17.webp);
+      }
+      68% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-18.webp);
+      }
+      72% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-19.webp);
+      }
+      76% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-20.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-21.jpg);
+      }
+      84% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-22.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-23.webp);
       }
     }
   }

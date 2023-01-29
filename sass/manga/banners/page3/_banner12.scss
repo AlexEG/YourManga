@@ -1,43 +1,104 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+  .header3b12 .banner-bg,
+  .header3b12 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 40s linear 0s infinite running page3banner12;
+            animation: 40s linear 0s infinite running page3banner12;
 
-    @keyframes banner1 {
+    @-webkit-keyframes page3banner12 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-1.webp);
       }
-      15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+      6% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-2.webp);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-3.webp);
+      }
+      18% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-4.webp);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-5.webp);
       }
       30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-6.webp);
       }
-      45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+      36% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-7.webp);
+      }
+      42% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-8.webp);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-9.webp);
+      }
+      54% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-10.webp);
       }
       60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-11.webp);
       }
-      75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+      66% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-12.webp);
       }
-      80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+      72% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-13.webp);
+      }
+      78% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-14.webp);
       }
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-15.webp);
+      }
+    }
+
+    @keyframes page3banner12 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-1.webp);
+      }
+      6% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-2.webp);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-3.webp);
+      }
+      18% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-4.webp);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-5.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-6.webp);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-7.webp);
+      }
+      42% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-8.webp);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-9.webp);
+      }
+      54% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-10.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-11.webp);
+      }
+      66% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-12.webp);
+      }
+      72% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-13.webp);
+      }
+      78% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-14.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-15.webp);
       }
     }
   }

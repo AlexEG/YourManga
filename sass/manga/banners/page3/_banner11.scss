@@ -1,43 +1,134 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+  .header3b11 .banner-bg,
+  .header3b11 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 75s linear 0s infinite running page3banner11;
+            animation: 75s linear 0s infinite running page3banner11;
 
-    @keyframes banner1 {
+    @-webkit-keyframes page3banner11 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-1.webp);
+      }
+      5% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-2.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-3.webp);
       }
       15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-4.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-5.webp);
+      }
+      25% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-6.webp);
       }
       30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-7.webp);
+      }
+      35% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-8.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-9.webp);
       }
       45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-10.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-11.webp);
+      }
+      55% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-12.webp);
       }
       60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-13.webp);
+      }
+      65% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-14.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-15.webp);
       }
       75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-16.webp);
       }
       80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-17.webp);
+      }
+      85% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-18.webp);
+      }
+      90% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-19.webp);
       }
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-20.webp);
+      }
+    }
+
+    @keyframes page3banner11 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-1.webp);
+      }
+      5% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-2.webp);
+      }
+      10% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-3.webp);
+      }
+      15% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-4.webp);
+      }
+      20% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-5.webp);
+      }
+      25% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-6.webp);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-7.webp);
+      }
+      35% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-8.webp);
+      }
+      40% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-9.webp);
+      }
+      45% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-10.webp);
+      }
+      50% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-11.webp);
+      }
+      55% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-12.webp);
+      }
+      60% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-13.webp);
+      }
+      65% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-14.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-15.webp);
+      }
+      75% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-16.webp);
+      }
+      80% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-17.webp);
+      }
+      85% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-18.webp);
+      }
+      90% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-19.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-20.webp);
       }
     }
   }
