@@ -1,43 +1,182 @@
 .manga__body {
   //banner background(blur) + manga cover
 
-  .header1 .banner-bg,
-  .header1 .info .info__manga-img .info__manga-img__manga-cover {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-animation-name: banner1;
-    animation-name: banner1;
+  .header3b5 .banner-bg,
+  .header3b5 .info .info__manga-img .info__manga-img__manga-cover {
+    -webkit-animation: 80s linear 0s infinite running page3banner5;
+    animation: 80s linear 0s infinite running page3banner5;
 
-    @keyframes banner1 {
+    @-webkit-keyframes page3banner5 {
       0% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-1.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-1.webp);
+      }
+      3% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-2.jpg);
+      }
+      6% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-3.jpg);
+      }
+      9% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-4.jpg);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-5.jpg);
       }
       15% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-2.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-6.jpg);
+      }
+      18% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-7.webp);
+      }
+      21% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-8.jpg);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-9.webp);
+      }
+      27% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-10.jpg);
       }
       30% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-3.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-11.webp);
+      }
+      33% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-12.webp);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-13.webp);
+      }
+      39% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-14.jpg);
+      }
+      42% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-15.webp);
       }
       45% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-4.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-16.webp);
       }
-      60% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-5.webp);
+      48% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-17.webp);
+      }
+      51% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-18.webp);
+      }
+      54% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-19.webp);
+      }
+      67% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-20.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-21.webp);
+      }
+      73% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-22.webp);
       }
       75% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-6.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-23.webp);
       }
-      80% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-7.webp);
+      78% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-24.webp);
+      }
+      81% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-25.webp);
+      }
+      84% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-26.webp);
+      }
+      87% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-27.webp);
       }
       100% {
-        background-image: url(/assets/manga-banner/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-28.jpg);
+      }
+    }
+
+    @keyframes page3banner5 {
+      0% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-1.webp);
+      }
+      3% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-2.jpg);
+      }
+      6% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-3.jpg);
+      }
+      9% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-4.jpg);
+      }
+      12% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-5.jpg);
+      }
+      15% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-6.jpg);
+      }
+      18% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-7.webp);
+      }
+      21% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-8.jpg);
+      }
+      24% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-9.webp);
+      }
+      27% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-10.jpg);
+      }
+      30% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-11.webp);
+      }
+      33% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-12.webp);
+      }
+      36% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-13.webp);
+      }
+      39% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-14.jpg);
+      }
+      42% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-15.webp);
+      }
+      45% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-16.webp);
+      }
+      48% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-17.webp);
+      }
+      51% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-18.webp);
+      }
+      54% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-19.webp);
+      }
+      67% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-20.webp);
+      }
+      70% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-21.webp);
+      }
+      73% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-22.webp);
+      }
+      75% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-23.webp);
+      }
+      78% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-24.webp);
+      }
+      81% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-25.webp);
+      }
+      84% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-26.webp);
+      }
+      87% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-27.webp);
+      }
+      100% {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-28.jpg);
       }
     }
   }

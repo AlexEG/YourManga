@@ -1,80 +1,79 @@
 .manga__body {
-
   // manga container
   main {
     .manga3 {
       //*==========  Cards [START here]  ==========*//
       .card1 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Re_Vol_16_English.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/5Toubun-no-Hanayome/5Toubun-no-Hanayome-14.webp);
         &::after {
-          content: "Tokyo Ghoul";
+          content: "5Toubun no Hanayome";
         }
       }
       .card2 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Volume_1.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Gekkan-Shoujo-Nozaki-kun/Nozaki-kun-14.webp);
         &::after {
-          content: "0000000";
+          content: "Gekkan Shoujo Nozaki kun";
         }
       }
       .card3 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/81QDxVfY65L.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/kaguya-sama-love-is-war/love-is-war-28.webp);
         &::after {
-          content: "TOMIE";
+          content: "kaguya sama love is war";
         }
       }
       .card4 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Fushi\ no\ Sougishi.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Science-Fell-in-Love-So-I-Tried-to-Prove-It/Science-Fell-in-Love-14.jpg);
         &::after {
-          content: "Fushi no Sougishi";
+          content: "Science Fell in Love So I Tried to Prove It";
         }
       }
       .card5 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Kings-Viking.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Seraph-of-the-End/Seraph-of-the-End-28.jpg);
         &::after {
-          content: "Kings' Viking";
+          content: "Seraph of the End";
         }
       }
       .card6 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Pumpkin\ Night.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Juujika-no-Rokunin/Juujika-no-Rokunin-9.jpg);
         &::after {
-          content: "Pumpkin Night";
+          content: "Juujika-no-Rokunin";
         }
       }
       .card7 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Reincarnation\ of\ the\ Suicidal\ Battle\ God.webp);
-        &::after {
-          content: "Reincarnation of the Suicidal Battle God";
-        }
-      }
-      .card8 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Kaiju\ No.\ 8.webp);
-
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kaiju-No-8/Kaiju-No8-8.webp);
         &::after {
           content: "Kaiju No. 8";
         }
       }
-      .card9 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Jumyou\ wo\ Kaitotte\ Moratta.\ Ichinen\ ni\ Tsuki\,\ Ichimanen\ de..webp);
+      .card8 {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Horimiya/Horimiya-16.webp);
+
         &::after {
-          content: "Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.";
+          content: "Horimiya";
+        }
+      }
+      .card9 {
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bungou-Stray-Dogs/Bungou-Stray-Dogs-23.webp);
+        &::after {
+          content: "Bungou Stray Dogs";
         }
       }
       .card10 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/The\ Beginning-After-the-End.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Bakemonogatari/Bakemonogatari-20.webp);
         &::after {
-          content: "The Beginning After the End";
+          content: "Bakemonogatari";
         }
       }
       .card11 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Jujika\ no\ Rokunin.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Hataraku-Maou-sama/Hataraku-Maou-sama-20.webp);
         &::after {
-          content: "Jujika no Rokunin";
+          content: "The Devil Is a Part-Timer!";
         }
       }
       .card12 {
-        background-image: url(../assets/manga-covers/manga-page3-webp/Kakegurui\ -\ Compulsive\ Gambler\ -\ Chapter\ 1\ -\ 1.webp);
+        background-image: url(../assets/manga-covers/manga-page3-webp/Kakkou-no-Iinazuke/Kakkou-no-Iinazuke-15.webp);
         &::after {
-          content: "Kakegurui - Compulsive Gambler - Chapter 1 - 1";
+          content: "A Couple of Cuckoos";
         }
       }
       //*==========  Cards [END here]  ==========*//
