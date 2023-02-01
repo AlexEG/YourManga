@@ -1,16 +1,16 @@
 function bannerInfo1B1() {
   mangaInfo.innerHTML = `
-  <h1>Tomo-chan wa Onna no ko!</h1>
-  <p>Artists: Yanagida Fumita</p>
-  <p>Authors: Yanagida Fumita</p>
-  <p>Status: Completed</p>
-  <p>Ranked: #437</p>
-
-  <p>
+<h1>Tomo-chan is a Girl!</h1>
+<p>Authors: Yanagida Fumita</p>
+<p>Demographic: Shounen</p>
+<p>Published: 2015</p>
+<p>Status: Completed</p>
+<p>Ranked: #427</p>
+<p>
     Genres: 4-Koma, Comedy, Romance, School Life, Slice of Life,
     Sports
-  </p>
-  <h2>Description</h2>
+</p>
+<h2>Description</h2>
   <p>
     Tomo Aizawa was able to successfully confess to her crush
     Junichirou Kubota. <br />
@@ -20,4 +20,3 @@ function bannerInfo1B1() {
     district.
   </p>`;
 }
-

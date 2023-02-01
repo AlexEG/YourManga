@@ -1,28 +1,21 @@
 function bannerInfo1B3() {
   // manga info
-  mangaInfo.innerHTML = `<h1>The Beginning After the End</h1>
-<p>Artists: Fuyuki23</p>
-<p>Authors: TurtleMe</p>
+  mangaInfo.innerHTML = `
+<h1>Pumpkin Night</h1>
+<p>Authors: Hokazono Masaya</p>
+<p>Demographic: Seinen</p>
+<p>Published: 2016</p>
+<p>Status: Ongoing</p>
+<p>Ranked: #457</p>
 <p>
-  Genres: Action, Adventure, Fantasy, School Life, Tragedy, Long
-  Strip, Isekai, Adaptation, Web Comic, Full Color, Gore, Demons,
-  Magic, Monsters, Reincarnation
+  Genres: Award Winning, Comedy, Drama, Horror, Mystery, Psychological, School Life, <br />
+  Slice of Life, Supernatural, Tragedy, Web Comic, Gore, Ghosts, Magic, Monsters
 </p>
 <h2>Description</h2>
 <p>
-  King Grey has unrivaled strength, wealth, and prestige in a world
-  governed by martial ability. <br />
-  However, solitude lingers closely behind those with great power.
-  <br />
-  Beneath the glamorous exterior of a powerful king lurks the shell of
-  man, devoid of purpose and will. <br />
-  Reincarnated into a new world filled with magic and monsters, the
-  king has a second chance to relive his life. <br />
-  Correcting the mistakes of his past will not be his only challenge,
-  however. <br />
-  Underneath the peace and prosperity of the new world is an
-  undercurrent threatening to destroy everything he has worked for,
-  questioning his role and reason for being born again.
-</p>`;
+  All of a sudden, Miko is able to see grotesque monsters all around her; but no one else can. <br />
+  Rather than trying to run away or face them, she instead musters all of her courage and… ignores them.
+  <br /> Join in on her day-to-day life as she keeps up her best poker face despite the supernatural goings-on.
+</p>
+`;
 }
-
