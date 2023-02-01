@@ -1,4 +1,4 @@
-function bannerInfo3B13() {
+function bannerInfo3B3() {
   // manga info
   mangaInfo.innerHTML = `
 <h1>Kaguya-sama: Love Is War</h1>
