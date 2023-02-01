@@ -1,0 +1,44 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header4b3 .banner-bg,
+  .header4b3 .info .info__manga-img .info__manga-img__manga-cover {
+    animation: 30s linear 0s infinite running page4banner3;
+
+    @keyframes page4banner3 {
+      0% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-1.webp);
+      }
+      10% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-2.webp);
+      }
+      20% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-3.webp);
+      }
+      30% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-4.webp);
+      }
+      40% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-5.webp);
+      }
+      50% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-6.webp);
+      }
+      60% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-7.webp);
+      }
+      70% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-8.webp);
+      }
+      80% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-9.webp);
+      }
+      90% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-10.webp);
+      }
+      100% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Bokura-wa-Minna-Kawaisou/Bokura-wa-Minna-Kawaisou-11.webp);
+      }
+    }
+  }
+}

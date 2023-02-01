@@ -1,0 +1,44 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header4b8 .banner-bg,
+  .header4b8 .info .info__manga-img .info__manga-img__manga-cover {
+    animation: 25s linear 0s infinite running page4banner8;
+
+    @keyframes page4banner8 {
+      0% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/1.webp);
+      }
+      10% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/2.webp);
+      }
+      20% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/3.webp);
+      }
+      30% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/4.webp);
+      }
+      40% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/5.jpg);
+      }
+      50% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/6.webp);
+      }
+      60% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/7.jpg);
+      }
+      70% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/8.webp);
+      }
+      80% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/9.jpg);
+      }
+      90% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/10.jpg);
+      }
+      100% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/The-Flowers-of-Evil/11.jpg);
+      }
+    }
+  }
+}
