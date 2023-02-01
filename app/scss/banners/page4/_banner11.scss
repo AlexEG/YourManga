@@ -1,0 +1,59 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header4b11 .banner-bg,
+  .header4b11 .info .info__manga-img .info__manga-img__manga-cover {
+    animation: 40s linear 0s infinite running page4banner11;
+
+    @keyframes page4banner11 {
+      0% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/1.webp);
+      }
+      6% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/2.webp);
+      }
+      12% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/3.webp);
+      }
+      18% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/4.webp);
+      }
+      24% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/5.webp);
+      }
+      30% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/6.webp);
+      }
+      36% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/7.webp);
+      }
+      42% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/8.webp);
+      }
+      48% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/9.webp);
+      }
+      54% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/10.webp);
+      }
+      60% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/11.jpg);
+      }
+      66% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/12.jpg);
+      }
+      72% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/13.webp);
+      }
+      78% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/14.webp);
+      }
+      84% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/15.webp);
+      }
+      100% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/Kakegurui/16.webp);
+      }
+    }
+  }
+}

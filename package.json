@@ -1,11 +1,11 @@
 {
-  "name": "qr-code-component",
+  "name": "yourmanga",
   "version": "1.0.0",
-  "description": "qr-code-componen",
+  "description": "YourManga web app is for discovering a new manga",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexEG/qr-code-component.git"
+    "url": "git+https://github.com/AlexEG/YourManga.git"
   },
   "keywords": [
     "gulp",
@@ -19,9 +19,9 @@
   "author": "@AlexEG",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexEG/qr-code-component/issues"
+    "url": "https://github.com/AlexEG/YourManga/issues"
   },
-  "homepage": "https://github.com/AlexEG/qr-code-component#readme",
+  "homepage": "https://github.com/AlexEG/YourManga#readme",
   "dependencies": {
     "autoprefixer": "^10.2.6",
     "browser-sync": "^2.27.4",

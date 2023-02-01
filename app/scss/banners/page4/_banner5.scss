@@ -1,0 +1,32 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header4b5 .banner-bg,
+  .header4b5 .info .info__manga-img .info__manga-img__manga-cover {
+    animation: 15s linear 0s infinite running page4banner5;
+
+    @keyframes page4banner5 {
+      0% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/We-Dont-Know-a-Thing-About-Love/1.webp);
+      }
+      32% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/We-Dont-Know-a-Thing-About-Love/1.webp);
+      }
+      33% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/We-Dont-Know-a-Thing-About-Love/2.webp);
+      }
+      65% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/We-Dont-Know-a-Thing-About-Love/2.webp);
+      }
+      66% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/We-Dont-Know-a-Thing-About-Love/3.webp);
+      }
+      99% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/We-Dont-Know-a-Thing-About-Love/3.webp);
+      }
+      100% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/We-Dont-Know-a-Thing-About-Love/1.webp);
+      }
+    }
+  }
+}

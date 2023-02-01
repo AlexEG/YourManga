@@ -1,0 +1,42 @@
+.manga__body {
+  //banner background(blur) + manga cover
+
+  .header4b7 .banner-bg,
+  .header4b7 .info .info__manga-img .info__manga-img__manga-cover {
+    animation: 40s linear 0s infinite running page4banner7;
+
+    @keyframes page4banner7 {
+      0% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/1.webp);
+      }
+      24% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/1.webp);
+      }
+
+      25% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/2.webp);
+      }
+      49% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/2.webp);
+      }
+
+      50% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/3.webp);
+      }
+      74% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/3.webp);
+      }
+
+      75% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/4.webp);
+      }
+      99% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/4.webp);
+      }
+
+      100% {
+        background-image: url(/assets/manga-covers/manga-page4-webp/I-Will-Be-Eaten-by-You/1.webp);
+      }
+    }
+  }
+}
