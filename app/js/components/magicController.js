@@ -3,6 +3,7 @@ btnpPage1.addEventListener("click", function () {
   btnactive3.classList.remove("active");
   btnactive4.classList.remove("active");
   btnactive1.classList.add("active");
+  // randomStart(1);
 });
 
 btnpPage2.addEventListener("click", function () {
@@ -10,6 +11,7 @@ btnpPage2.addEventListener("click", function () {
   btnactive3.classList.remove("active");
   btnactive4.classList.remove("active");
   btnactive2.classList.add("active");
+  // randomStart(2);
 });
 
 btnpPage3.addEventListener("click", function () {
@@ -17,6 +19,7 @@ btnpPage3.addEventListener("click", function () {
   btnactive2.classList.remove("active");
   btnactive4.classList.remove("active");
   btnactive3.classList.add("active");
+  // randomStart(3);
 });
 
 btnpPage4.addEventListener("click", function () {
@@ -24,4 +27,5 @@ btnpPage4.addEventListener("click", function () {
   btnactive2.classList.remove("active");
   btnactive3.classList.remove("active");
   btnactive4.classList.add("active");
+  // randomStart(4);
 });

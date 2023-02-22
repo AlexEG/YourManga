@@ -3,11 +3,18 @@ const nextBackBanner = document.querySelector("#nextBackBanner");
 const next = document.querySelector("#next");
 const back = document.querySelector("#back");
 
+function randomStart(PageNum) {
+  let random = `${Math.ceil(Math.random() * 12)}`;
+  let classname = `header${PageNum}b${random}`;
+  header.classList.add(classname);
+}
+
+randomStart(1);
+
 next.addEventListener("click", function () {
   if (header.classList.contains("header1b1")) {
     header.classList.remove("header1b1");
     header.classList.add("header1b2");
-
     bannerInfo1B2();
   } else if (header.classList.contains("header1b2")) {
     header.classList.remove("header1b2");
