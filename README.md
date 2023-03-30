@@ -3,6 +3,8 @@
 
 <hr>
 
+The app is broken at the moment
+
 # [click for Live Demo](https://alexeg.github.io/YourManga/)
 
 
