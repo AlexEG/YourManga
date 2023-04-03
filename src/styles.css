@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+/* scrollbar for firefox */
+@supports(scrollbar-color:red blue) {
+  body {
+    scrollbar-width: none;
+  }
+}
+
+
+/* Manga Quick Review Reader */
+.manga-reader::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+
+.manga-reader::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, hsla(261, 100%, 20%, 0.69), transparent);
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+.manga-reader::-webkit-scrollbar-thumb {
+  background: hsla(261, 100%, 20%, 0.69);
+  border: 0.05em solid hsla(261, 100%, 50%, 0.69);
+  border-radius: 100vw;
+}
+
+.manga-reader::-webkit-scrollbar-thumb:hover {
+  background: hsla(261, 100%, 50%, 0.69);
+}
+
+/* scrollbar for firefox */
+@supports(scrollbar-color:red blue) {
+  * {
+    scrollbar-width: none;
+  }
+}

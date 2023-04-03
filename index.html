@@ -17,180 +17,142 @@
       href="./assets/images/anime.webp"
     />
     <!-- CSS File -->
-    <link rel="stylesheet" href="dist/style.css?cb=1675282561676" />
-    <link rel="stylesheet" href="./dist/all.min.css" />
-
-    <!--!============  Google Fonts [START here] ============*-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!--!============  Google Fonts [END here] ============*-->
+    <link rel="stylesheet" href="./dist/styles.css" />
   </head>
 
-  <body id="mangaBody" class="manga__body">
-    <!--!============  header [START here] ============*-->
+  <body class="bg-black pb-80">
+    <!-- Header  -->
+    <header
+      class="relative h-80 overflow-hidden bg-cover bg-center bg-no-repeat"
+      style="
+        background-image: url(./assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling5.webp);
+      "
+    >
+      <!-- header bg mask blur -->
+      <div
+        class="absolute z-0 h-full w-full bg-transparent backdrop-blur-sm"
+      ></div>
+      <!-- header bg mask black color -->
+      <div class="absolute z-0 h-full w-full bg-black opacity-70"></div>
 
-    <header id="header" class="header header1b1">
-      <!--*============  Banner Manga [START here] ============*-->
-
-      <div class="banner-bg"></div>
-
-      <div class="info">
-        <div class="info__manga-img">
-          <div class="info__manga-img__manga-cover"></div>
+      <!-- main container -->
+      <div class="absolute z-10 grid h-full w-full grid-cols-4">
+        <!-- manga cover  -->
+        <div class="col-span-1 flex h-full w-full items-center justify-center">
+          <img
+            class="z-10 w-48"
+            src="./assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling5.webp"
+            alt=""
+          />
         </div>
-
-        <div>
-          <div id="mangaInfo" class="info__manga-info">
-            <h1>Tomo-chan wa Onna no ko!</h1>
-            <p>Artists: Yanagida Fumita</p>
-            <p>Authors: Yanagida Fumita</p>
-            <p>Status: Completed</p>
-            <p>Ranked: #437</p>
-
-            <p>
-              Genres: 4-Koma, Comedy, Romance, School Life, Slice of Life,
-              Sports
-            </p>
-            <h2>Description</h2>
-            <p>
-              Tomo Aizawa was able to successfully confess to her crush
-              Junichirou Kubota. <br />
-              There is only one problem: He just sees her as his buddy. <br />
-              He thought that she was a boy until they went to middle school
-              together, because her grade school was in a different school
-              district.
-            </p>
-          </div>
-
-          <div id="nextBackBanner" class="next-back">
-            <div id="back"></div>
-            <div id="next"></div>
-          </div>
-        </div>
+        <!-- manga info section  -->
+        <article class="col-span-3 text-white">
+          <h1 class="py-4 text-xl font-bold">My Dress up Darling</h1>
+          <p>Authors: Fukuda Shinichi</p>
+          <p>Demographic: Seinen</p>
+          <p>Published: 2018</p>
+          <p>Status: Ongoing</p>
+          <p>Ranked: #29</p>
+          <p>
+            Genres: Comedy, Ecchi, Gyaru, Romance, School Life, Slice of Life,
+            Crossdressing
+          </p>
+          <h2 class="py-2 text-lg font-bold">Description</h2>
+          <p class="max-w-xl text-xs opacity-70">
+            Wakana Gojou is a fifteen year old high-school boy who was socially
+            traumatized in the past due to his passions. That incident left a
+            mark on him that made him into a social recluse. Until one day he
+            had an encounter with Kitagawa who is a sociable gyaru, who is the
+            complete opposite of him. They soon share their passions with one
+            another which leads to their odd relationship.
+          </p>
+        </article>
       </div>
-      <!--*============  Banner Manga [END here] ============*-->
     </header>
-    <!--!============  header [END here] ============*-->
 
-    <!--*============  Magic controller  [START here] ============*-->
-    <div class="controller__container">
-      <div id="lightDarkMode" class="light-dark-btn">
-        <div class="circle"></div>
+    <!-- main manga container  -->
+
+    <main class="mt-28 flex h-full w-full items-center justify-center">
+      <div
+        id="mangaComponentMainContainer"
+        class="grid max-w-5xl grid-cols-3 gap-8"
+      >
+        <!-- manga card -->
+        <!-- ------------- -->
+        <div class="group relative max-h-[455px] overflow-hidden">
+          <img
+            src="./assets/manga-covers/manga-page1-webp/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp"
+            alt=""
+          />
+          <!-- manga cover hover black transparent mask -->
+          <div
+            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
+          ></div>
+          <!-- manga  name -->
+          <div
+            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
+          >
+            <span class="pb-3 text-white">Tomo-chan is a Girl!</span>
+          </div>
+          <!-- quick preview icon  -->
+          <div
+            class="quick-preview absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
+          >
+            <img class="" src="./assets/manga-quick-review.gif" alt="" />
+          </div>
+          <!-- heart btn  -->
+          <div class="absolute right-3 top-3 z-30">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="red"
+              color="red"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+              />
+            </svg>
+          </div>
+        </div>
+        <!-- ------------- -->
       </div>
 
-      <div id="cards" class="cards">
-        <div id="btnpage1" class="card">
-          <div id="btnactive1" class="card-content active">
-            <span>1</span>
-          </div>
+      <!-- Manga Quick Review -->
+      <div class="fixed top-0 z-40 hidden h-full w-full">
+        <!-- Overlay / bg mask -->
+        <div class="h-full w-full bg-black opacity-80">
+          <!-- btn to close manga reader  -->
+          <button
+            class="absolute right-3 top-3 text-white hover:bg-gray-200 hover:text-black"
+          >
+            <svg
+              class="h-7 w-7"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
         </div>
-
-        <div id="btnpage2" class="card">
-          <div id="btnactive2" class="card-content btnactive2">
-            <span>2</span>
-          </div>
-        </div>
-
-        <div id="btnpage3" class="card">
-          <div id="btnactive3" class="card-content btnactive3">
-            <span>3</span>
-          </div>
-        </div>
-
-        <div id="btnpage4" class="card">
-          <div id="btnactive4" class="card-content btnactive4">
-            <span>4</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--*============  Magic controller  [END here] ============*-->
-
-    <div id="reader" class="reader hide">
-      <div id="readerBg" class="bg-hide"></div>
-      <div id="closeReader" class="close-reader">Close</div>
-      <div id="quickview" class="manga-page"></div>
-    </div>
-
-    <!--!============  MAIN [START here] ============*-->
-    <main>
-      <div id="mangaContaner" class="manga__contaner manga1">
-        <div class="manga__card card1">
-          <div id="readerBtn1" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card2">
-          <div id="readerBtn2" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card3">
-          <div id="readerBtn3" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card4">
-          <div id="readerBtn4" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card5">
-          <div id="readerBtn5" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card6">
-          <div id="readerBtn6" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card7">
-          <div id="readerBtn7" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card8">
-          <div id="readerBtn8" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card9">
-          <div id="readerBtn9" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card10">
-          <div id="readerBtn10" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card11">
-          <div id="readerBtn11" class="btn">quick view</div>
-        </div>
-        <div class="manga__card card12">
-          <div id="readerBtn12" class="btn">quick view</div>
-        </div>
+        <!-- Manga Chapter Reader  -->
+        <div
+          class="manga-reader absolute left-1/2 top-0 z-50 h-full w-1/3 -translate-x-1/2 overflow-auto pr-2"
+        ></div>
       </div>
     </main>
-    <!--!============  MAIN [END here] ============*-->
-    <!-- ////////////////////////////////////////////////// -->
-    <!-- !============  FOOTER [START here] ============*-->
-    <!-- special class for each page  -->
-    <footer class="manga__page__footer">
-      <div class="line"></div>
-      <div class="footer__container">
-        <div class="alexeg">
-          Made With
-          <img src="./assets/images/footer-heart.png" alt="heart image" /> By
-          AlexEG © 2023
-        </div>
-        <div class="accounts">
-          <a href="https://github.com/AlexEG" target="_blank">
-            <i class="fa-brands fa-github fa-fw fa-2x github"></i
-          ></a>
-          <a href="https://codepen.io/Alexander_EG" target="_blank">
-            <i class="fa-brands fa-codepen fa-fw fa-2x"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/mohamed-adel-69a452249/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin fa-fw fa-2x"></i
-          ></a>
-          <a
-            href="https://www.freecodecamp.org/fcc4dcee3ab-a388-4f70-9ad9-0ac52ed81dc7"
-            target="_blank"
-            ><i class="fa-brands fa-free-code-camp"></i
-          ></a>
-        </div>
-      </div>
-    </footer>
-    <!--!============  FOOTER [END here] ============* -->
-    <!-- JavaScript File -->
-    <script src="dist/all.js?cb=1675282561676"></script>
+    <script src="./src/JS/manga-card-component.js"></script>
+    <script src="./src/JS/quick-review-component.js"></script>
   </body>
 </html>
