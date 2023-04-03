@@ -23,13 +23,15 @@
   <body class="bg-black pb-80">
     <!-- Header  -->
     <header
-      class="relative h-80 bg-cover bg-center bg-no-repeat"
+      class="relative h-80 overflow-hidden bg-cover bg-center bg-no-repeat"
       style="
         background-image: url(./assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling5.webp);
       "
     >
       <!-- header bg mask blur -->
-      <div class="absolute z-0 h-full w-full backdrop-blur-sm"></div>
+      <div
+        class="absolute z-0 h-full w-full bg-transparent backdrop-blur-sm"
+      ></div>
       <!-- header bg mask black color -->
       <div class="absolute z-0 h-full w-full bg-black opacity-70"></div>
 
@@ -71,7 +73,10 @@
     <!-- main manga container  -->
 
     <main class="mt-28 flex h-full w-full items-center justify-center">
-      <div class="grid max-w-5xl grid-cols-3 gap-8">
+      <div
+        id="mangaComponentMainContainer"
+        class="grid max-w-5xl grid-cols-3 gap-8"
+      >
         <!-- manga card -->
         <!-- ------------- -->
         <div class="group relative max-h-[455px] overflow-hidden">
@@ -87,11 +92,11 @@
           <div
             class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
           >
-            <span class="pb-3 text-white">Tomo-chan </span>
+            <span class="pb-3 text-white">Tomo-chan is a Girl!</span>
           </div>
-          <!-- fast preview icon  -->
+          <!-- quick preview icon  -->
           <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
+            class="quick-preview absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
           >
             <img class="" src="./assets/manga-quick-review.gif" alt="" />
           </div>
@@ -100,468 +105,6 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page4-webp/We-Dont-Know-a-Thing-About-Love/3.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">We Dont Know a Thing About Love</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page3-webp/Gekkan-Shoujo-Nozaki-kun/Nozaki-kun-14.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Monthly Girls' Nozaki-kun </span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page2-webp/Ajin/Ajin-17.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Ajin</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page2-webp/Boys-Abyss/Boys-Abyss-1.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Boy's Abyss</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-11.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Wotakoi: Love Is Hard for Otaku</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page1-webp/mieruko-chan/mieruko-chan-6.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Mieruko-chan</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling10.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">My Dress up Darling</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page1-webp/uzaki-chan-wants-to-hang-out/uzaki-chan-9.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Uzaki-chan Wants to Hang Out!</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page1-webp/pumpkin-night/pumpkin-night-6.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Pumpkin Night</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page2-webp/Attack-on-Titan/Attack-on-Titan-34.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Attack on Titan"</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
-        <!-- ------------- -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/manga-page2-webp/Call-of-the-Night/Call-of-the-Night-7.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
-          >
-            <span class="pb-3 text-white">Call of the Night</span>
-          </div>
-          <!-- fast preview icon  -->
-          <div
-            class="absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
               color="red"
               viewBox="0 0 24 24"
               stroke-width="1.5"
@@ -578,6 +121,38 @@
         </div>
         <!-- ------------- -->
       </div>
+
+      <!-- Manga Quick Review -->
+      <div class="fixed top-0 z-40 hidden h-full w-full">
+        <!-- Overlay / bg mask -->
+        <div class="h-full w-full bg-black opacity-80">
+          <!-- btn to close manga reader  -->
+          <button
+            class="absolute right-3 top-3 text-white hover:bg-gray-200 hover:text-black"
+          >
+            <svg
+              class="h-7 w-7"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <!-- Manga Chapter Reader  -->
+        <div
+          class="manga-reader absolute left-1/2 top-0 z-50 h-full w-1/3 -translate-x-1/2 overflow-auto pr-2"
+        ></div>
+      </div>
     </main>
+    <script src="./src/JS/manga-card-component.js"></script>
+    <script src="./src/JS/quick-review-component.js"></script>
   </body>
 </html>
