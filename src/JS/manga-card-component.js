@@ -71,7 +71,7 @@ mangaComponenet(
 mangaComponenet(`Ajin`, `manga-page2-webp/Ajin/Ajin-17.webp`, false);
 mangaComponenet(
   `Wotakoi: Love Is Hard for Otaku`,
-  `manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-11.webp`,
+  `manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-3.webp`,
   true
 );
 mangaComponenet(
