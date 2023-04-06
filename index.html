@@ -84,11 +84,41 @@
       </button>
     </header>
     <!-- ------  -->
+    <!-- SEARCH BAR START  -->
+    <nav class="relative flex h-14 items-center justify-center">
+      <input
+        class="h-10 w-96 rounded-full bg-slate-500 p-4 text-white opacity-30 focus-within:bg-slate-800 focus-within:opacity-100"
+        type="text"
+        aria-label="search"
+        placeholder="e.g. Attack on Titan"
+      />
+
+      <button
+        class="z-10 -ml-9 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-slate-600 text-white"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="h-6 w-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+          />
+        </svg>
+      </button>
+    </nav>
+    <!-- SEARCH BAR END  -->
+    <!-- SIDEBAR START -->
     <aside id="sidebar" class="absolute top-80 z-50 m-0 flex w-14 flex-col">
       <!-- ICONS -->
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +136,7 @@
         </svg>
       </div>
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +155,7 @@
       </div>
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +179,7 @@
       </div>
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +198,7 @@
       </div>
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -187,7 +217,7 @@
       </div>
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +236,7 @@
       </div>
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +255,7 @@
       </div>
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +274,7 @@
       </div>
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -268,7 +298,7 @@
       </div>
 
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -286,7 +316,7 @@
         </svg>
       </div>
       <div
-        class="flex h-14 w-full items-center justify-center bg-slate-950 text-white"
+        class="flex h-14 w-full cursor-pointer items-center justify-center bg-slate-950"
       >
         <svg
           class="h-6 w-6"
@@ -300,6 +330,8 @@
         </svg>
       </div>
     </aside>
+    <!-- SIDEBAR END -->
+
     <!-- ------  -->
     <!-- main manga container  -->
     <main class="mt-28 flex h-full w-full items-center justify-center">
@@ -328,10 +360,10 @@
           <div
             class="quick-preview absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
           >
-            <img class="" src="./assets/manga-quick-review.gif" alt="" />
+            <img src="./assets/manga-quick-review.gif" alt="" />
           </div>
           <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
+          <div class="absolute right-3 top-3 z-30 hover:animate-ping">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="red"
@@ -389,5 +421,6 @@
     <script src="./src/JS/manga-card-component.js"></script>
     <script src="./src/JS/quick-review-component.js"></script>
     <script src="./src/JS/sidebar.js"></script>
+    <script src="./src/JS/header.js"></script>
   </body>
 </html>
