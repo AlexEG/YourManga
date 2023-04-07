@@ -7,7 +7,7 @@ function mangaComponenet(mangaName, mangaCover, like) {
         <div class="group relative max-h-[455px] overflow-hidden">
           <img
             src="./assets/manga-covers/${mangaCover}"
-            alt=""
+            alt="" loading="lazy" 
           />
           <!-- manga cover hover black transparent mask -->
           <div
@@ -23,7 +23,7 @@ function mangaComponenet(mangaName, mangaCover, like) {
           <div
             class="quick-preview absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 transition-opacity duration-300 hover:opacity-100 group-hover:block"
           >
-            <img src="./assets/manga-quick-review.gif" alt="" />
+            <img src="./assets/manga-quick-review.gif" alt="" loading="lazy" />
           </div>
           <!-- heart btn  -->
           <div class="absolute right-3 top-3 z-30">
@@ -52,7 +52,7 @@ function mangaComponenet(mangaName, mangaCover, like) {
 // mangaCover === src="./assets/manga-covers/[[manga-page1-webp/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp]]"
 
 // mangaComponenet(
-//   `Tomo-chan`,
+//   `Tomo-chan is a Girl!`,
 //   `manga-page1-webp/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp`,
 // true
 // );
