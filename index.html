@@ -25,7 +25,7 @@
     <header
       class="relative h-80 overflow-hidden bg-cover bg-center bg-no-repeat"
       style="
-        background-image: url(./assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling5.webp);
+        background-image: url(./assets/manga-covers/manga-page1-webp/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp);
       "
     >
       <!-- header bg mask blur -->
@@ -41,31 +41,34 @@
         <div class="col-span-1 flex h-full w-full items-center justify-center">
           <img
             class="z-10 w-48"
-            src="./assets/manga-covers/manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling5.webp"
+            src="./assets/manga-covers/manga-page1-webp/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp"
             alt=""
           />
         </div>
         <!-- manga info section  -->
-        <article class="col-span-3 text-white">
-          <h1 class="py-4 text-xl font-bold">My Dress up Darling</h1>
-          <p>Authors: Fukuda Shinichi</p>
-          <p>Demographic: Seinen</p>
-          <p>Published: 2018</p>
-          <p>Status: Ongoing</p>
-          <p>Ranked: #29</p>
+        <article class="col-span-3 overflow-hidden text-white">
+          <h1 class="py-4 text-xl font-bold">Tomo-chan is a Girl!</h1>
+          <p>Authors: <span>Yanagida Fumita</span></p>
+          <p>Demographic: <span>Shounen</span></p>
+          <p>Published: <span>2015</span></p>
+          <p>Status: <span>Completed</span></p>
+          <p>Ranked: <span>#427</span></p>
 
           <p>
-            Genres: Comedy, Ecchi, Gyaru, Romance, School Life, Slice of Life,
-            Crossdressing
+            Genres:
+            <span
+              >4-Koma, Comedy, Romance, School Life, Slice of Life,Sports</span
+            >
           </p>
           <h2 class="py-2 text-lg font-bold">Description</h2>
           <p class="max-w-xl text-xs opacity-70">
-            Wakana Gojou is a fifteen year old high-school boy who was socially
-            traumatized in the past due to his passions. That incident left a
-            mark on him that made him into a social recluse. Until one day he
-            had an encounter with Kitagawa who is a sociable gyaru, who is the
-            complete opposite of him. They soon share their passions with one
-            another which leads to their odd relationship.
+            <span>
+              Tomo Aizawa was able to successfully confess to her crush
+              Junichirou Kubota. There is only one problem: He just sees her as
+              his buddy. He thought that she was a boy until they went to middle
+              school together, because her grade school was in a different
+              school district.
+            </span>
           </p>
         </article>
       </div>
@@ -360,7 +363,7 @@
           <div
             class="quick-preview absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
           >
-            <img src="./assets/manga-quick-review.gif" alt="" />
+            <img src="./assets/manga-quick-review.gif" alt="" loading="lazy" />
           </div>
           <!-- heart btn  -->
           <div class="absolute right-3 top-3 z-30 hover:animate-ping">
@@ -422,5 +425,6 @@
     <script src="./src/JS/quick-review-component.js"></script>
     <script src="./src/JS/sidebar.js"></script>
     <script src="./src/JS/header.js"></script>
+    <script src="./src/JS/header-manga-info.js"></script>
   </body>
 </html>

@@ -28,11 +28,22 @@ function headerBanner(mangaPath, valumeCoverNumber) {
   }, time + 4000);
 }
 
-headerBanner(`manga-page2-webp/Boys-Abyss/Boys-Abyss-`, 11);
+//  headerBanner(`manga-page2-webp/Boys-Abyss/Boys-Abyss-`, 11);
 
 //////////////////////////////////
-//TODO Previous Next btn
-// get a random manga with info and then render it as header/banner
-// maybe be stor all manga info in array then use Math.random to get both info + manga name
-// relate manga name with PATH & how many valume Cover that this manga have
-// or in manga info set valumes number
+
+const nextBtn = document.querySelector("header #nextBannerbtn");
+const previousBtn = document.querySelector("header #previousBannerbtn");
+
+const mangaArr = [
+  [`manga-page2-webp/Boys-Abyss/Boys-Abyss-`, 11],
+  [`manga-page1-webp/uzaki-chan-wants-to-hang-out/uzaki-chan-`, 9],
+  [`manga-page1-webp/pumpkin-night/pumpkin-night-`, 7],
+];
+
+headerBanner(mangaArr[0][0], mangaArr[0][1]);
+
+// TODO auto change banner manga's valume Cover
+// TODO dark/light btn
+// TODO get all manga first chapter
+// TODO design phone app version(responsive design)
