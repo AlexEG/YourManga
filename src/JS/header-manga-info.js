@@ -191,6 +191,12 @@ nextBtn.addEventListener("click", () => {
   bannerMangaGenres.textContent = mangaInfo[bannerMangaInfoNum].genres;
   bannerMangaDescription.textContent =
     mangaInfo[bannerMangaInfoNum].description;
+
+  mangaBannerCount = 1;
+  CoversContainer.innerHTML = mangaCoverArr[bannerMangaInfoNum].map((el) =>
+    addImg(el)
+  );
+  console.log(`Change Manga in preview | Next`);
 });
 
 previousBtn.addEventListener("click", () => {
@@ -205,5 +211,10 @@ previousBtn.addEventListener("click", () => {
   bannerMangaGenres.textContent = mangaInfo[bannerMangaInfoNum].genres;
   bannerMangaDescription.textContent =
     mangaInfo[bannerMangaInfoNum].description;
+  mangaBannerCount = 1;
+  CoversContainer.innerHTML = mangaCoverArr[bannerMangaInfoNum].map((el) =>
+    addImg(el)
+  );
+  console.log(`Change Manga in preview | Back`);
 });
 // ------------------------------ //
