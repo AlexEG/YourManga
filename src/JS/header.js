@@ -1,10 +1,10 @@
-const header = document.querySelector("body > header");
+const header = document.querySelector("body header");
 const mangaCover = document.querySelector(
-  "body > header > div.absolute.z-10.grid.h-full.w-full.grid-cols-4 > div > img"
+  "body header > div.absolute.z-10 > div > img"
 );
 
-const nextBtn = document.querySelector("header #nextBannerbtn");
-const previousBtn = document.querySelector("header #previousBannerbtn");
+const nextBtn = document.querySelector(" header #nextBannerbtn");
+const previousBtn = document.querySelector(" header #previousBannerbtn");
 const CoversContainer = document.querySelector(
   "header #mangaValumesCoversContainer"
 );
@@ -22,7 +22,7 @@ function autoChangeBannerImg() {
 
     mangaCover.src = `.${document
       .querySelector(
-        `#mangaValumesCoversContainer > img:nth-child(${mangaBannerCount})`
+        ` #mangaValumesCoversContainer > img:nth-child(${mangaBannerCount})`
       )
       .src.slice(21)}`;
 
@@ -100,5 +100,5 @@ const mangaCoverArr = [
 ];
 
 function addImg(el) {
-  return `<img class="hidden" src="./assets/manga-covers/${el}.webp" alt="" />`;
+  return `<img class="hidden" src="./assets/manga-covers/${el}.webp" alt="" loading="lazy" />`;
 }

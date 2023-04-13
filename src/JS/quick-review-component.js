@@ -1,21 +1,28 @@
 const reader = document.querySelector(
-  "body > main > div.fixed.top-0.z-40.hidden.h-full.w-full"
+  "body main > div.fixed.top-0.z-40.hidden.h-full.w-full"
 );
 const readerMask = document.querySelector(
-  "body > main > div.fixed.top-0.z-40.h-full.w-full > div.h-full.w-full.bg-black.opacity-80"
+  "body main > div.fixed.top-0.z-40.h-full.w-full > div.h-full.w-full.bg-black.opacity-80"
 );
 const readerImagesContainer = document.querySelector(
-  "body > main > div.fixed.top-0.z-40.hidden.h-full.w-full > div.manga-reader.absolute.left-1\\/2.top-0.z-50.h-full.w-1\\/3.-translate-x-1\\/2.overflow-auto.pr-2"
+  "body main  div.fixed > div.manga-reader"
 );
+const closeBtnInReaderContainer = document.querySelector("#closeReader");
 
 readerMask.addEventListener("click", () => {
   reader.classList.add("hidden");
   document.querySelector("body").classList.remove("overflow-hidden");
-
   readerImagesContainer.innerHTML = "";
 });
+
+closeBtnInReaderContainer.addEventListener("click", () => {
+  reader.classList.add("hidden");
+  document.querySelector("body").classList.remove("overflow-hidden");
+  readerImagesContainer.innerHTML = "";
+});
+
 function addImage(img) {
-  readerImagesContainer.innerHTML += `<img class="w-full" src="./assets/manga/${img}" alt="" />`;
+  readerImagesContainer.innerHTML += `<img class="w-full" src="./assets/manga/${img}" alt="" loading="lazy" />`;
 }
 
 // Tomo-chan is a Girl!

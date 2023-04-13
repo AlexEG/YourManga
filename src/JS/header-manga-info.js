@@ -153,28 +153,28 @@ const mangaInfo = [
 // mangaName.textContent = mangaNameArr[Math.floor(Math.random() * 12)];
 
 const bannerMangaTitle = document.querySelector(
-  "body > header > div.absolute.z-10 > article > h1"
+  "body header > div.absolute.z-10 > article > h1"
 );
 const bannerMangaAuthors = document.querySelector(
-  "body > header > div.absolute.z-10 > article > p:nth-of-type(1) > span"
+  "body header > div.absolute.z-10 > article > p:nth-of-type(1) > span"
 );
 const bannerMangaDemographic = document.querySelector(
-  "body > header > div.absolute.z-10 > article > p:nth-of-type(2) > span"
+  "body header > div.absolute.z-10 > article > p:nth-of-type(2) > span"
 );
 const bannerMangaPublished = document.querySelector(
-  "body > header > div.absolute.z-10 > article > p:nth-of-type(3) > span"
+  "body header > div.absolute.z-10 > article > p:nth-of-type(3) > span"
 );
 const bannerMangaStatus = document.querySelector(
-  "body > header > div.absolute.z-10 > article > p:nth-of-type(4) > span"
+  "body header > div.absolute.z-10 > article > p:nth-of-type(4) > span"
 );
 const bannerMangaRanked = document.querySelector(
-  "body > header > div.absolute.z-10 > article > p:nth-of-type(5) > span"
+  "body header > div.absolute.z-10 > article > p:nth-of-type(5) > span"
 );
 const bannerMangaGenres = document.querySelector(
-  "body > header > div.absolute.z-10 > article > p:nth-of-type(6) > span"
+  "body header > div.absolute.z-10 > article > p:nth-of-type(6) > span"
 );
 const bannerMangaDescription = document.querySelector(
-  "body > header > div.absolute.z-10 > article > p:nth-of-type(7) > span"
+  "body header > div.absolute.z-10 > article > p:nth-of-type(7) > span"
 );
 
 let bannerMangaInfoNum = 0;

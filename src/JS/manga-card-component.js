@@ -15,7 +15,7 @@ function mangaComponenet(mangaName, mangaCover, like) {
           ></div>
           <!-- manga  name -->
           <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent opacity-0 transition duration-300 group-hover:opacity-100"
+            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent text-center text-sm opacity-100 transition duration-300 group-hover:opacity-100 md:text-base md:opacity-0"
           >
             <span class="pb-3 text-white">${mangaName}</span>
           </div>
