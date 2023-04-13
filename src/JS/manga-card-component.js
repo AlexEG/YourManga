@@ -3,7 +3,7 @@ const mangaContainer = document.querySelector(
 );
 function mangaComponenet(mangaName, mangaCover, like) {
   return (mangaContainer.innerHTML += `
-  <!-- ------------- -->
+  <!----[ ${mangaName} ]---->
         <div class="group relative max-h-[455px] overflow-hidden">
           <img
             src="./assets/manga-covers/${mangaCover}"
@@ -44,68 +44,16 @@ function mangaComponenet(mangaName, mangaCover, like) {
             </svg>
           </div>
         </div>
-        <!-- ------------- -->
+        <!----------------->
   `);
 }
-// mangaComponenet(`mangaName`,`mangaCover`,`like)
-// like === ture=red false=none [true,false,1,0] default = false
-// mangaCover === src="./assets/manga-covers/[[manga-page1-webp/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp]]"
 
-// mangaComponenet(
-//   `Tomo-chan is a Girl!`,
-//   `manga-page1-webp/tomo-chan-wa-onna-no-ko/tomo-chan-8.webp`,
-// true
-// );
-
-mangaComponenet(
-  `Monthly Girls' Nozaki-kun`,
-  `manga-page3-webp/Gekkan-Shoujo-Nozaki-kun/Nozaki-kun-14.webp`,
-  true
-);
-
-mangaComponenet(
-  `Boy's Abyss`,
-  `manga-page2-webp/Boys-Abyss/Boys-Abyss-1.webp`,
-  true
-);
-mangaComponenet(`Ajin`, `manga-page2-webp/Ajin/Ajin-17.webp`, false);
-mangaComponenet(
-  `Wotakoi: Love Is Hard for Otaku`,
-  `manga-page1-webp/wotakoi-love-is-hard/wotakoi-love-is-hard-3.webp`,
-  true
-);
-mangaComponenet(
-  `Mieruko-chan`,
-  `manga-page1-webp/mieruko-chan/mieruko-chan-6.webp`,
-  true
-);
-mangaComponenet(
-  `My Dress up Darling`,
-  `manga-page1-webp/sono-bisque-doll-wa-koi-wo-suru/my-dress-up-darling10.webp`,
-  true
-);
-mangaComponenet(
-  `We Dont Know a Thing About Love`,
-  `manga-page4-webp/We-Dont-Know-a-Thing-About-Love/3.webp`,
-  false
-);
-mangaComponenet(
-  `Uzaki-chan Wants to Hang Out!`,
-  `manga-page1-webp/uzaki-chan-wants-to-hang-out/uzaki-chan-9.webp`,
-  false
-);
-mangaComponenet(
-  `Pumpkin Night`,
-  `manga-page1-webp/pumpkin-night/pumpkin-night-6.webp`,
-  true
-);
-mangaComponenet(
-  `Attack on Titan`,
-  `manga-page2-webp/Attack-on-Titan/Attack-on-Titan-34.webp`,
-  false
-);
-mangaComponenet(
-  `Call of the Night`,
-  `manga-page2-webp/Call-of-the-Night/Call-of-the-Night-7.webp`,
-  false
-);
+mangaInfo.map((mangaInfoItem) => {
+  mangaComponenet(
+    mangaInfoItem.title,
+    `${mangaInfoItem.title.split(" ").join("-")}/valume-${
+      mangaInfoItem.valumes
+    }.webp`,
+    true
+  );
+});

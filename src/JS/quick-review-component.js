@@ -5,7 +5,7 @@ const readerMask = document.querySelector(
   "body main > div.fixed.top-0.z-40.h-full.w-full > div.h-full.w-full.bg-black.opacity-80"
 );
 const readerImagesContainer = document.querySelector(
-  "body main  div.fixed > div.manga-reader"
+  "body main > div.fixed > div.manga-reader"
 );
 const closeBtnInReaderContainer = document.querySelector("#closeReader");
 
@@ -28,7 +28,7 @@ function addImage(img) {
 // Tomo-chan is a Girl!
 document
   .querySelector(
-    "#mangaComponentMainContainer > div:nth-child(1) > div.quick-preview"
+    "#mangaComponentMainContainer > div:nth-child(2) > div.quick-preview"
   )
   .addEventListener("click", () => {
     reader.classList.remove("hidden");
@@ -46,7 +46,7 @@ document
 // Monthly Girls' Nozaki-kun
 document
   .querySelector(
-    "#mangaComponentMainContainer > div:nth-child(2) > div.quick-preview"
+    "#mangaComponentMainContainer > div:nth-child(3) > div.quick-preview"
   )
   .addEventListener("click", () => {
     reader.classList.remove("hidden");
@@ -74,7 +74,7 @@ document
 // Boy's Abyss
 document
   .querySelector(
-    "#mangaComponentMainContainer > div:nth-child(3) > div.quick-preview"
+    "#mangaComponentMainContainer > div:nth-child(4) > div.quick-preview"
   )
   .addEventListener("click", () => {
     reader.classList.remove("hidden");
