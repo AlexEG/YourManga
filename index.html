@@ -21,58 +21,14 @@
   </head>
 
   <body
-    class="grid grid-cols-12 bg-black pb-80 transition-colors duration-700 ease-in-out"
+    class="grid grid-cols-12 bg-black transition-colors duration-700 ease-in-out"
   >
     <!-- Header  -->
     <header
       class="relative col-span-full row-start-1 row-end-2 h-80 overflow-hidden bg-cover bg-center bg-no-repeat"
-      style="
-        background-image: url(./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-8.webp);
-      "
     >
       <!-- contaniner to stor manga's valume Covers  -->
-      <div id="mangaValumesCoversContainer" class="hidden">
-        <img
-          class="hidden"
-          src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-1.webp"
-          alt=""
-        />
-        <img
-          class="hidden"
-          src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-2.webp"
-          alt=""
-        />
-        <img
-          class="hidden"
-          src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-3.webp"
-          alt=""
-        />
-        <img
-          class="hidden"
-          src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-4.webp"
-          alt=""
-        />
-        <img
-          class="hidden"
-          src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-5.webp"
-          alt=""
-        />
-        <img
-          class="hidden"
-          src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-6.webp"
-          alt=""
-        />
-        <img
-          class="hidden"
-          src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-7.webp"
-          alt=""
-        />
-        <img
-          class="hidden"
-          src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-8.webp"
-          alt=""
-        />
-      </div>
+      <div id="mangaValumesCoversContainer" class="hidden"></div>
       <!-- header bg mask blur -->
       <div
         class="absolute z-0 h-full w-full bg-transparent backdrop-blur-sm"
@@ -88,11 +44,7 @@
         <div
           class="col-start-2 row-span-2 flex w-full items-center justify-center pt-2 md:col-span-1 md:h-full md:pt-0"
         >
-          <img
-            class="z-10 h-full md:h-auto md:w-48"
-            src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-8.webp"
-            alt=""
-          />
+          <img class="z-10 h-full md:h-auto md:w-48" src="" alt="" />
         </div>
         <!-- manga info section  -->
         <article
@@ -100,30 +52,20 @@
         >
           <h1
             class="pt-7 text-center text-base font-bold md:py-2 md:text-left md:text-xl"
-          >
-            Tomo-chan is a Girl!
-          </h1>
-          <p class="hidden md:block">Authors: <span>Yanagida Fumita</span></p>
-          <p class="hidden md:block">Demographic: <span>Shounen</span></p>
-          <p class="hidden md:block">Published: <span>2015</span></p>
-          <p class="hidden md:block">Status: <span>Completed</span></p>
-          <p class="hidden md:block">Ranked: <span>#427</span></p>
+          ></h1>
+          <p class="hidden md:block">Authors: <span></span></p>
+          <p class="hidden md:block">Demographic: <span></span></p>
+          <p class="hidden md:block">Published: <span></span></p>
+          <p class="hidden md:block">Status: <span></span></p>
+          <p class="hidden md:block">Ranked: <span></span></p>
 
           <p class="hidden md:block">
             Genres:
-            <span
-              >4-Koma, Comedy, Romance, School Life, Slice of Life,Sports</span
-            >
+            <span></span>
           </p>
           <h2 class="hidden py-2 text-lg font-bold md:block">Description</h2>
           <p class="hidden md:block" class="max-w-xl text-xs opacity-70">
-            <span>
-              Tomo Aizawa was able to successfully confess to her crush
-              Junichirou Kubota. There is only one problem: He just sees her as
-              his buddy. He thought that she was a boy until they went to middle
-              school together, because her grade school was in a different
-              school district.
-            </span>
+            <span> </span>
           </p>
         </article>
       </div>
@@ -399,47 +341,6 @@
         class="grid max-w-5xl grid-cols-2 gap-4 md:grid-cols-3 md:gap-8"
       >
         <!-- manga card -->
-        <!-- ------------- -->
-        <div class="group relative max-h-[455px] overflow-hidden">
-          <img
-            src="./assets/manga-covers/Tomo-chan-is-a-Girl!/valume-8.webp"
-            alt=""
-          />
-          <!-- manga cover hover black transparent mask -->
-          <div
-            class="absolute bottom-0 z-10 h-full w-full opacity-30 transition duration-300 group-hover:bg-black"
-          ></div>
-          <!-- manga  name -->
-          <div
-            class="absolute bottom-0 z-20 flex h-24 w-full items-end justify-center bg-gradient-to-t from-manganame to-transparent text-center text-sm opacity-100 transition duration-300 group-hover:opacity-100 md:text-base md:opacity-0"
-          >
-            <span class="pb-3 text-white">For Testing & Development</span>
-          </div>
-          <!-- quick preview icon  -->
-          <div
-            class="quick-preview absolute left-1/2 top-1/2 z-20 hidden h-20 w-20 -translate-x-1/2 -translate-y-1/2 cursor-pointer rounded-full border-2 border-solid border-manganame bg-white p-5 opacity-70 drop-shadow-[0_0_20px_rgba(0,0,0,1)] transition-opacity duration-300 hover:opacity-100 group-hover:block"
-          >
-            <img src="./assets/manga-quick-review.gif" alt="" loading="lazy" />
-          </div>
-          <!-- heart btn  -->
-          <div class="absolute right-3 top-3 z-30">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="red"
-              color="red"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </div>
-        </div>
         <!-- ------------- -->
       </div>
 

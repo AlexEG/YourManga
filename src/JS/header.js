@@ -26,7 +26,7 @@ function autoChangeBannerImg() {
       )
       .src.slice(21)}`;
 
-    console.log("(Change Banner Img)  " + mangaBannerCount);
+    console.log(`${bannerMangaTitle.textContent}  ${mangaBannerCount}`);
 
     mangaBannerCount++;
     autoChangeBannerImg();

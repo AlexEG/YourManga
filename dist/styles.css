@@ -988,6 +988,10 @@ video {
   padding-top: 1.75rem;
 }
 
+.pb-96 {
+  padding-bottom: 24rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1347,14 +1351,6 @@ body::-webkit-scrollbar {
     padding-top: 0px;
   }
 
-  .md\:pt-2 {
-    padding-top: 0.5rem;
-  }
-
-  .md\:pb-2 {
-    padding-bottom: 0.5rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
@@ -1367,11 +1363,6 @@ body::-webkit-scrollbar {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .md\:opacity-0 {

@@ -24,64 +24,97 @@ const bannerMangaGenres = document.querySelector(
 const bannerMangaDescription = document.querySelector(
   "body header > div.absolute.z-10 > article > p:nth-of-type(7) > span"
 );
+// ------------------------------ //
+function randomMangaOnReload() {
+  const randomNum = Math.floor(Math.random() * mangaInfo.length);
+  bannerMangaTitle.textContent = mangaInfo[randomNum].title;
+  bannerMangaAuthors.textContent = mangaInfo[randomNum].authors;
+  bannerMangaDemographic.textContent = mangaInfo[randomNum].demographic;
+  bannerMangaPublished.textContent = mangaInfo[randomNum].published;
+  bannerMangaStatus.textContent = mangaInfo[randomNum].status;
+  bannerMangaRanked.textContent = mangaInfo[randomNum].ranked;
+  bannerMangaGenres.textContent = mangaInfo[randomNum].genres;
+  bannerMangaDescription.textContent = mangaInfo[randomNum].description;
+  let covers = ``;
+  for (let i = 0; i < mangaInfo[randomNum].valumes; i++) {
+    covers += `
+    <img class="hidden" src="./assets/manga-covers/${mangaInfo[randomNum].title
+      .split(" ")
+      .join("-")}/valume- (${i + 1}).webp" alt="" loading="lazy" />
+      `;
+  }
+  CoversContainer.innerHTML = covers;
+}
+randomMangaOnReload();
+// ------------------------------ //
+let mangaNum = 0;
+// console.log(bannerMangaTitle.textContent);
+// console.log(mangaInfo.filter((x) => x.title === bannerMangaTitle.textContent));
+// console.log(
+//   mangaInfo.map((x, i) =>
+//     x.title === bannerMangaTitle.textContent ? (mangaNum = i) : "not"
+//   )
+// );
 
-let bannerMangaInfoNum = 0;
+function WhatMangaNumInBanner() {
+  mangaInfo.map((x, i) => {
+    if (x.title === bannerMangaTitle.textContent) {
+      mangaNum = i;
+    }
+  });
+}
+WhatMangaNumInBanner();
 // ------------------------------ //
 nextBtn.addEventListener("click", () => {
-  bannerMangaInfoNum === 11 ? (bannerMangaInfoNum = 0) : bannerMangaInfoNum++;
-  bannerMangaTitle.textContent = mangaInfo[bannerMangaInfoNum].title;
-  bannerMangaAuthors.textContent = mangaInfo[bannerMangaInfoNum].authors;
-  bannerMangaDemographic.textContent =
-    mangaInfo[bannerMangaInfoNum].demographic;
-  bannerMangaPublished.textContent = mangaInfo[bannerMangaInfoNum].published;
-  bannerMangaStatus.textContent = mangaInfo[bannerMangaInfoNum].status;
-  bannerMangaRanked.textContent = mangaInfo[bannerMangaInfoNum].ranked;
-  bannerMangaGenres.textContent = mangaInfo[bannerMangaInfoNum].genres;
-  bannerMangaDescription.textContent =
-    mangaInfo[bannerMangaInfoNum].description;
-
   mangaBannerCount = 1;
+  mangaNum === mangaInfo.length - 1 ? (mangaNum = 0) : mangaNum++;
+
+  bannerMangaTitle.textContent = mangaInfo[mangaNum].title;
+  bannerMangaAuthors.textContent = mangaInfo[mangaNum].authors;
+  bannerMangaDemographic.textContent = mangaInfo[mangaNum].demographic;
+  bannerMangaPublished.textContent = mangaInfo[mangaNum].published;
+  bannerMangaStatus.textContent = mangaInfo[mangaNum].status;
+  bannerMangaRanked.textContent = mangaInfo[mangaNum].ranked;
+  bannerMangaGenres.textContent = mangaInfo[mangaNum].genres;
+  bannerMangaDescription.textContent = mangaInfo[mangaNum].description;
 
   let covers = ``;
-  for (let i = 0; i < mangaInfo[bannerMangaInfoNum].valumes; i++) {
+  for (let i = 0; i < mangaInfo[mangaNum].valumes; i++) {
     covers += `
-    <img class="hidden" src="./assets/manga-covers/${mangaInfo[
-      bannerMangaInfoNum
-    ].title
+    <img class="hidden" src="./assets/manga-covers/${mangaInfo[mangaNum].title
       .split(" ")
-      .join("-")}/valume-${i + 1}.webp" alt="" loading="lazy" />
+      .join("-")}/valume- (${i + 1}).webp" alt="" loading="lazy" />
     `;
   }
   CoversContainer.innerHTML = covers;
 
-  console.log(`Change Manga in preview | Next`);
+  console.log(`Next Manga  |${mangaNum}|`);
 });
 
+// ------------------------------ //
 previousBtn.addEventListener("click", () => {
-  bannerMangaInfoNum < 1 ? (bannerMangaInfoNum = 11) : bannerMangaInfoNum--;
-  bannerMangaTitle.textContent = mangaInfo[bannerMangaInfoNum].title;
-  bannerMangaAuthors.textContent = mangaInfo[bannerMangaInfoNum].authors;
-  bannerMangaDemographic.textContent =
-    mangaInfo[bannerMangaInfoNum].demographic;
-  bannerMangaPublished.textContent = mangaInfo[bannerMangaInfoNum].published;
-  bannerMangaStatus.textContent = mangaInfo[bannerMangaInfoNum].status;
-  bannerMangaRanked.textContent = mangaInfo[bannerMangaInfoNum].ranked;
-  bannerMangaGenres.textContent = mangaInfo[bannerMangaInfoNum].genres;
-  bannerMangaDescription.textContent =
-    mangaInfo[bannerMangaInfoNum].description;
   mangaBannerCount = 1;
+  mangaNum < 1 ? (mangaNum = mangaInfo.length - 1) : mangaNum--;
+
+  bannerMangaTitle.textContent = mangaInfo[mangaNum].title;
+  bannerMangaAuthors.textContent = mangaInfo[mangaNum].authors;
+  bannerMangaDemographic.textContent = mangaInfo[mangaNum].demographic;
+  bannerMangaPublished.textContent = mangaInfo[mangaNum].published;
+  bannerMangaStatus.textContent = mangaInfo[mangaNum].status;
+  bannerMangaRanked.textContent = mangaInfo[mangaNum].ranked;
+  bannerMangaGenres.textContent = mangaInfo[mangaNum].genres;
+  bannerMangaDescription.textContent = mangaInfo[mangaNum].description;
 
   let covers = ``;
-  for (let i = 0; i < mangaInfo[bannerMangaInfoNum].valumes; i++) {
+  for (let i = 0; i < mangaInfo[mangaNum].valumes; i++) {
     covers += `
-    <img class="hidden" src="./assets/manga-covers/${mangaInfo[
-      bannerMangaInfoNum
-    ].title
+    <img class="hidden" src="./assets/manga-covers/${mangaInfo[mangaNum].title
       .split(" ")
-      .join("-")}/valume-${i + 1}.webp" alt="" loading="lazy" />
+      .join("-")}/valume- (${i + 1}).webp" alt="" loading="lazy" />
     `;
   }
   CoversContainer.innerHTML = covers;
-  console.log(`Change Manga in preview | Back`);
+
+  console.log(`Previous Manga  |${mangaNum}|`);
 });
 // ------------------------------ //

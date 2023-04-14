@@ -51,9 +51,9 @@ function mangaComponenet(mangaName, mangaCover, like) {
 mangaInfo.map((mangaInfoItem) => {
   mangaComponenet(
     mangaInfoItem.title,
-    `${mangaInfoItem.title.split(" ").join("-")}/valume-${
+    `${mangaInfoItem.title.split(" ").join("-")}/valume- (${
       mangaInfoItem.valumes
-    }.webp`,
-    true
+    }).webp`,
+    false
   );
 });
