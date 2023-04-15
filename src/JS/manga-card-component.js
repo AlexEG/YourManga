@@ -34,7 +34,7 @@ function mangaComponenet(mangaName, mangaCover, filterDemographic, like) {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
+              class="heart-btn h-7 w-7 cursor-pointer drop-shadow-[0_0_10px_rgba(255,0,0,0.7)]"
             >
               <path
                 stroke-linecap="round"
@@ -58,4 +58,69 @@ mangaInfo.map((mangaInfoItem) => {
     mangaInfoItem.demographic,
     false
   );
+});
+
+// ------------------------------------
+// heart btn
+// selecet every heart svg in the page
+const heartBtns = document.querySelectorAll(
+  "#mangaComponentMainContainer svg.heart-btn"
+);
+
+// add eventlistener to every heart svg on click make svg fill = red / none
+heartBtns.forEach((heartBtn) => {
+  heartBtn.addEventListener("click", () => {
+    heartBtn.style.fill = heartBtn.style.fill === "red" ? "none" : "red";
+  });
+});
+
+// on click on each heartBtn svg make fill = red / none and save the manga name to local storage with the same name
+
+// heartBtns.forEach((heartBtn) => {
+//   heartBtn.addEventListener("click", () => {
+//     const manganame = heartBtn.parentElement.querySelector(
+//       ".manga-card span.hidden"
+//     ).textContent;
+//     const mangaInfo = mangaInfo.find(
+//       (mangaInfoItem) => mangaInfoItem.title === manganame
+//     );
+//     if (heartBtn.style.fill === "red") {
+//       localStorage.setItem(manganame, JSON.stringify(mangaInfo));
+//     } else {
+//       localStorage.removeItem(manganame);
+//     }
+//   });
+// });
+
+heartBtns.forEach((heartBtn) => {
+  heartBtn.addEventListener("click", () => {
+    // get the name of manga
+    const manganame = heartBtn.parentElement.parentElement.querySelector(
+      "span.pb-3.text-white"
+    ).textContent;
+
+    // then stor whtere the heartBtn is fill red in local storge using manganame as key
+
+    if (heartBtn.style.fill === "red") {
+      localStorage.setItem(manganame, "liked");
+
+      console.log(`==> Add ${JSON.stringify(manganame)} To Liked Manga List`);
+    } else {
+      localStorage.removeItem(manganame);
+      console.log(
+        `==> Remove ${JSON.stringify(manganame)} To Liked Manga List`
+      );
+    }
+  });
+});
+
+// on load check if the manga is liked and change the heartBtn fill to red
+
+heartBtns.forEach((heartBtn) => {
+  const manganame = heartBtn.parentElement.parentElement.querySelector(
+    "span.pb-3.text-white"
+  ).textContent;
+  if (localStorage.getItem(manganame) === "liked") {
+    heartBtn.style.fill = "red";
+  }
 });

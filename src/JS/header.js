@@ -26,7 +26,11 @@ function autoChangeBannerImg() {
       )
       .src.slice(21)}`;
 
-    console.log(`${bannerMangaTitle.textContent}  ${mangaBannerCount}`);
+    console.log(
+      `%c ${bannerMangaTitle.textContent}  %c${mangaBannerCount}`,
+      `color:#ff009975`,
+      `color:red; background-color:#55555575; padding-inline:4px; border-radius:8px`
+    );
 
     mangaBannerCount++;
     autoChangeBannerImg();

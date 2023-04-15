@@ -41,37 +41,6 @@ filterBtnsContaniner.addEventListener("click", (e) => {
 
 const mangaCards = mangaContainer.querySelectorAll(".manga-card");
 
-// filterBtnsContaniner.addEventListener("click", (e) => {
-//   if (e.target.tagName === "BUTTON") {
-//     // reset all manga cards to display block
-//     mangaCards.forEach((card) => {
-//       card.style.display = "block";
-//     });
-//     console.log(`  ==> reset all manga cards to display block`);
-
-//     // filter the manga cards
-//     mangaCards.forEach((card) => {
-//       if (
-//         card.querySelector("span.hidden").textContent === e.target.textContent
-//       ) {
-//         card.style.display = "block";
-//       } else {
-//         card.style.display = "none";
-//       }
-//     });
-
-//     // // filter the manga cards
-//     // mangaCards.forEach((card) => {
-//     // console.log(
-//     //   card.querySelector("span").textContent === e.target.textContent
-//     // );
-//     // document.querySelector("#mangaComponentMainContainer > div:nth-child(3) > span").textContent
-//     // console.log(card.querySelector("span.hidden").innerHTML);
-//     // select the second span inside the card
-//     // });
-//   }
-// });
-
 // Filter (All) btn [DONE]
 filterBtnsContaniner
   .querySelector("button:nth-child(1)")
@@ -156,3 +125,32 @@ filterBtnsContaniner
     totalNumberOfManga.innerHTML = total;
     console.log(`  ==> Just Shoujo Manga || ${total} manga`);
   });
+
+// ------------------------------------ //
+//**  Account Featuers Filtering + Like btn + Loacl Storge **//
+// ------------------------------------ //
+
+// Account icon Like search bar Filtering but baesd on if the svg heartBtn fill = red
+const accountIcon = document.querySelector("body > aside > div:nth-child(1)");
+
+accountIcon.addEventListener("click", () => {
+  let total = 0;
+  mangaCards.forEach((card) => {
+    if (
+      localStorage.getItem(
+        card.querySelector("span.pb-3.text-white").textContent
+      ) === "liked"
+    ) {
+      card.style.display = "block";
+      total++;
+    } else {
+      card.style.display = "none";
+    }
+  });
+
+  totalNumberOfManga.innerHTML = total;
+  console.log(
+    `==> %c Your Liked Manga List || [${total}] Manga`,
+    `color:green`
+  );
+});
