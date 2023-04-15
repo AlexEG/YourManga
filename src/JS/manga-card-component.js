@@ -1,10 +1,10 @@
 const mangaContainer = document.querySelector(
   "div#mangaComponentMainContainer"
 );
-function mangaComponenet(mangaName, mangaCover, like) {
+function mangaComponenet(mangaName, mangaCover, filterDemographic, like) {
   return (mangaContainer.innerHTML += `
   <!----[ ${mangaName} ]---->
-        <div class="group relative max-h-[455px] overflow-hidden">
+        <div class="manga-card group relative max-h-[455px] overflow-hidden">
           <img
             src="./assets/manga-covers/${mangaCover}"
             alt="" loading="lazy" 
@@ -43,6 +43,7 @@ function mangaComponenet(mangaName, mangaCover, like) {
               />
             </svg>
           </div>
+          <span class="hidden">${filterDemographic}</span>
         </div>
         <!----------------->
   `);
@@ -54,6 +55,7 @@ mangaInfo.map((mangaInfoItem) => {
     `${mangaInfoItem.title.split(" ").join("-")}/valume- (${
       mangaInfoItem.valumes
     }).webp`,
+    mangaInfoItem.demographic,
     false
   );
 });
