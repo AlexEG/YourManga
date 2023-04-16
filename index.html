@@ -162,15 +162,18 @@
 
       <!--*** Accont ***-->
       <div
-        class="flex h-14 cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950 md:w-14"
+        id="accountImgSidebar"
+        class="relative flex h-14 cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950 md:w-14"
       >
+        <!-- Account Profile Image  -->
+        <div class="h-8 w-8 rounded-full bg-cover bg-center"></div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="h-6 w-6"
+          class="absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2"
         >
           <path
             stroke-linecap="round"
@@ -201,7 +204,7 @@
       <!--*** Settinges ***-->
 
       <div
-        class="flex h-14 cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950 md:w-14"
+        class="settinges flex h-14 cursor-pointer items-center justify-center bg-slate-950 text-white transition duration-300 hover:bg-slate-200 hover:text-slate-950 md:w-14"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -482,7 +485,109 @@
 
       <!-- -------------  -->
     </main>
+    <!-- -------------------------- -->
+    <!--!   Settinges   !-->
+    <div id="settingsBox" class="fixed top-0 z-40 hidden h-full w-full">
+      <!-- Overlay / bg mask -->
+      <div class="h-full w-full bg-black opacity-80"></div>
+      <!-- Settinges Box -->
+      <div
+        class="fixed left-1/2 top-1/2 grid h-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2 grid-cols-1 grid-rows-6 rounded-sm bg-slate-950"
+      >
+        <!-- Settinges NavBar -->
+        <div
+          id="settingsNavBar"
+          class="relative row-span-1 flex h-11 w-full bg-slate-900"
+        >
+          <!-- SETTINGES  SECTIONS [START] -->
+          <!-- Update Profile Image Section -->
+          <section
+            class="relative h-full cursor-pointer bg-slate-800 p-2 text-center text-white before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full before:bg-violet-600"
+          >
+            Profile Img
+          </section>
 
+          <!-- someting1 Section -->
+          <section
+            class="relative h-full cursor-pointer bg-slate-800 p-2 text-center text-white before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full"
+          >
+            someting1
+          </section>
+
+          <!-- someting2 Section -->
+          <section
+            class="relative h-full cursor-pointer bg-slate-800 p-2 text-center text-white before:absolute before:bottom-0 before:left-0 before:h-1 before:w-full"
+          >
+            someting2
+          </section>
+
+          <!-- SETTINGES  SECTIONS [END] -->
+          <!-- Close Settinges btn  -->
+          <button
+            id="closeSettingsBtn"
+            class="absolute right-2 top-2 z-50 rounded-sm text-white transition-colors hover:bg-gray-200 hover:text-slate-950"
+          >
+            <svg
+              class="h-7 w-7"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!--* Account Picture [START] *-->
+        <div
+          class="row-start-2 row-end-4 flex h-full w-full items-center justify-center"
+        >
+          <div
+            id="account-img"
+            class="h-32 w-32 rounded-full bg-green-400 bg-cover bg-center bg-no-repeat"
+            style="background-image: url('./assets/default-profile-img.jpg')"
+          ></div>
+        </div>
+
+        <!--  Account Picture [INPUT] -->
+        <div class="row-span-4 flex h-full w-full items-center justify-center">
+          <div>
+            <input
+              id="accountImgInput"
+              class="rounded-lg px-4 py-2 outline-violet-600"
+              type="text"
+              placeholder="Your Profile Image URL"
+              value=""
+            />
+            <!-- submit btn  -->
+            <button
+              id="submitAccountImg"
+              class="ml-1 rounded-lg bg-violet-600 px-5 py-2 text-white transition-colors hover:bg-violet-800 active:bg-violet-400"
+            >
+              Save
+            </button>
+
+            <!-- Clear btn  -->
+            <button
+              id="clearAccountImg"
+              class="ml-1 rounded-lg bg-red-600 px-5 py-2 text-white transition-colors hover:bg-red-800 active:bg-red-400"
+            >
+              Clear
+            </button>
+          </div>
+        </div>
+        <!--* Account Picture [END] *-->
+
+        <!-- Settinges Box END -->
+      </div>
+    </div>
+    <!-- -------------------------- -->
     <script src="./src/JS/sidebar.js"></script>
     <script src="./src/JS/header.js"></script>
     <script src="./src/JS/mangaInfoDB.js"></script>
@@ -490,5 +595,6 @@
     <script src="./src/JS/manga-card-component.js"></script>
     <script src="./src/JS/quick-review-component.js"></script>
     <script src="./src/JS/search-bar.js"></script>
+    <script src="./src/JS/settinges-box.js"></script>
   </body>
 </html>

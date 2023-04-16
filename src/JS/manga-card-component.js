@@ -76,22 +76,6 @@ heartBtns.forEach((heartBtn) => {
 
 // on click on each heartBtn svg make fill = red / none and save the manga name to local storage with the same name
 
-// heartBtns.forEach((heartBtn) => {
-//   heartBtn.addEventListener("click", () => {
-//     const manganame = heartBtn.parentElement.querySelector(
-//       ".manga-card span.hidden"
-//     ).textContent;
-//     const mangaInfo = mangaInfo.find(
-//       (mangaInfoItem) => mangaInfoItem.title === manganame
-//     );
-//     if (heartBtn.style.fill === "red") {
-//       localStorage.setItem(manganame, JSON.stringify(mangaInfo));
-//     } else {
-//       localStorage.removeItem(manganame);
-//     }
-//   });
-// });
-
 heartBtns.forEach((heartBtn) => {
   heartBtn.addEventListener("click", () => {
     // get the name of manga
