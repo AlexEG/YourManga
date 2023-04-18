@@ -112,7 +112,7 @@ const mangaInfo = [
   },
   // [9]
   {
-    title: `Uzaki-chan Wants to Hang Out`,
+    title: `Uzaki-chan Wants to Hang Out!`,
     authors: `Take`,
     demographic: `Shounen`,
     published: `2017`,
