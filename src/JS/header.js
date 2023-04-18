@@ -50,13 +50,17 @@ const CoversContainer = document.querySelector(
 let mangaBannerCount = 1;
 function autoChangeBannerImg() {
   setTimeout(function () {
-    header.style.backgroundImage = `url('.${document.querySelector(
-      `#mangaValumesCoversContainer > img:nth-child(${mangaBannerCount})`
-    )}')`;
+    header.style.backgroundImage = `url('${document
+      .querySelector(
+        `#mangaValumesCoversContainer > img:nth-child(${mangaBannerCount})`
+      )
+      .src.slice(0)}')`;
 
-    mangaCover.src = `.${document.querySelector(
-      ` #mangaValumesCoversContainer > img:nth-child(${mangaBannerCount})`
-    )}`;
+    mangaCover.src = `${document
+      .querySelector(
+        ` #mangaValumesCoversContainer > img:nth-child(${mangaBannerCount})`
+      )
+      .src.slice(0)}`;
 
     console.log(
       `%c ${bannerMangaTitle.textContent}  %c${mangaBannerCount}`,
@@ -73,4 +77,5 @@ function autoChangeBannerImg() {
   }
 }
 autoChangeBannerImg();
+// ---------------------------------------------------- //
 // ---------------------------------------------------- //
