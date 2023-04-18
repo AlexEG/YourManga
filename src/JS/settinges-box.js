@@ -55,14 +55,14 @@ clearAccountImgBtn.addEventListener("click", () => {
 //**  Settinges  Box   **//
 // ------------------------------------ //
 const settingsBox = document.querySelector("div#settingsBox");
-
 //?  Settinges NavBar  ?//
 const settingsNavBar = document.querySelector(
   "div#settinges div#settingsNavBar"
 );
-
 // close settinges box btn
 const closeSettingesBtn = document.querySelector("button#closeSettingsBtn");
+
+// ----------------
 
 // give the settingsBox the hidden class
 closeSettingesBtn.addEventListener("click", () => {
@@ -76,3 +76,21 @@ settingsSidebar.addEventListener("click", () => {
   // to stop scrolling when the settinges box is open
   document.body.classList.add("overflow-hidden");
 });
+
+// settings NavBar Section
+
+const settingsNavBarSections = document.querySelectorAll(
+  "div#settingsNavBar section"
+);
+
+// add event listener to each section of settingsNavBar to give class before:bg-violet-600 to the active section and remove it from the rest
+settingsNavBarSections.forEach((section) => {
+  section.addEventListener("click", () => {
+    settingsNavBarSections.forEach((sec) => {
+      sec.classList.remove("before:bg-violet-600");
+    });
+    section.classList.add("before:bg-violet-600");
+  });
+});
+
+//
