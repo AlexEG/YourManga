@@ -1,19 +1,20 @@
+// ------------------------------------ //
+//**  Light Dark Mode   **//
+// ------------------------------------ //
 const lightDarkMode = document.querySelector(`body  aside div#lightDarkMode`);
 
 lightDarkMode.addEventListener("click", () => {
   console.log("Light/Dark mode");
 
-  if (document.body.classList.contains("bg-white")) {
-    document.body.classList.remove("bg-white");
-    document.body.classList.add("bg-black");
+  if (document.body.classList.contains("dark")) {
+    document.body.classList.remove("dark");
     lightDarkMode.querySelector("svg ").innerHTML = ` <path
     stroke-linecap="round"
     stroke-linejoin="round"
     d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
   />`;
   } else {
-    document.body.classList.remove("bg-black");
-    document.body.classList.add("bg-white");
+    document.body.classList.add("dark");
 
     lightDarkMode.querySelector("svg ").innerHTML = `<path
     stroke-linecap="round"
